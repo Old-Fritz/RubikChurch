@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: d5f60de6c53e4a643861e759fd73d35f
+timeCreated: 1549719178
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Background
+    100002: door
+    100004: door_2
+    100006: door_balcony
+    100008: floor
+    100010: //RootNode
+    100012: house
+    100014: Light
+    100016: Light_2
+    100018: Null_1
+    100020: pole
+    100022: pole_2
+    100024: pole_3
+    100026: pole_4
+    100028: pole_5
+    100030: pole_6
+    100032: poles
+    100034: Scene
+    100036: Sky
+    100038: smal_roof
+    100040: small_roof
+    100042: walls
+    100044: walls_2
+    100046: window
+    100048: window_2
+    100050: window_3
+    100052: window_4
+    100054: window_5
+    100056: window_6
+    100058: windows
+    100060: wood
+    400000: Background
+    400002: door
+    400004: door_2
+    400006: door_balcony
+    400008: floor
+    400010: //RootNode
+    400012: house
+    400014: Light
+    400016: Light_2
+    400018: Null_1
+    400020: pole
+    400022: pole_2
+    400024: pole_3
+    400026: pole_4
+    400028: pole_5
+    400030: pole_6
+    400032: poles
+    400034: Scene
+    400036: Sky
+    400038: smal_roof
+    400040: small_roof
+    400042: walls
+    400044: walls_2
+    400046: window
+    400048: window_2
+    400050: window_3
+    400052: window_4
+    400054: window_5
+    400056: window_6
+    400058: windows
+    400060: wood
+    2100000: house
+    2300000: door
+    2300002: door_2
+    2300004: door_balcony
+    2300006: floor
+    2300008: pole
+    2300010: pole_2
+    2300012: pole_3
+    2300014: pole_4
+    2300016: pole_5
+    2300018: pole_6
+    2300020: poles
+    2300022: smal_roof
+    2300024: small_roof
+    2300026: walls
+    2300028: walls_2
+    2300030: window
+    2300032: window_2
+    2300034: window_3
+    2300036: window_4
+    2300038: window_5
+    2300040: window_6
+    2300042: windows
+    2300044: wood
+    3300000: door
+    3300002: door_2
+    3300004: door_balcony
+    3300006: floor
+    3300008: pole
+    3300010: pole_2
+    3300012: pole_3
+    3300014: pole_4
+    3300016: pole_5
+    3300018: pole_6
+    3300020: poles
+    3300022: smal_roof
+    3300024: small_roof
+    3300026: walls
+    3300028: walls_2
+    3300030: window
+    3300032: window_2
+    3300034: window_3
+    3300036: window_4
+    3300038: window_5
+    3300040: window_6
+    3300042: windows
+    3300044: wood
+    4300000: walls
+    4300002: window
+    4300004: door
+    4300006: walls_2
+    4300008: window_2
+    4300010: window_3
+    4300012: door_balcony
+    4300014: door_2
+    4300016: window_4
+    4300018: window_5
+    4300020: window_6
+    4300022: smal_roof
+    4300024: windows
+    4300026: small_roof
+    4300028: wood
+    4300030: floor
+    4300032: poles
+    4300034: pole
+    4300036: pole_2
+    4300038: pole_3
+    4300040: pole_4
+    4300042: pole_5
+    4300044: pole_6
+    9500000: //RootNode
+    10800000: Light
+    10800002: Light_2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
