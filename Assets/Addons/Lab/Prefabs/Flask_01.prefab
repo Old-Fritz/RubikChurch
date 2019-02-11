@@ -88,8 +88,8 @@ GameObject:
   - component: {fileID: 4728973355736244}
   - component: {fileID: 33188927416302028}
   - component: {fileID: 23522797991620432}
-  - component: {fileID: 8875038419808972812}
   - component: {fileID: 4563112723883070125}
+  - component: {fileID: 3240761516518346023}
   m_Layer: 0
   m_Name: Flask_01
   m_TagString: Untagged
@@ -157,19 +157,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8875038419808972812
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999036259228978}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.06639976, y: 0.25495017, z: 0.066398926}
-  m_Center: {x: 0, y: -0.000000007450581, z: 0}
 --- !u!54 &4563112723883070125
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -186,3 +173,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &3240761516518346023
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999036259228978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 3475b932e25f196499c2c98f6fc6367a, type: 3}
