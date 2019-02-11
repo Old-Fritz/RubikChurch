@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\komar\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_RubikChurch.-1682634393.00" t="ExcludeRecursive" />
+    <e p="C:\Users\komar\OneDrive\Documents\RubikChurch" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Addons" t="Include">
+          <e p="DarkPack" t="Include">
+            <e p="DarkFantasyKit [Free]" t="Include">
+              <e p="Readme" t="Include">
+                <e p="Parts" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="ReadmeEditor.cs" t="Include" />
+                  </e>
+                  <e p="Readme.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Lab" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="SBS_Mana.shader" t="Include" />
+            </e>
+          </e>
+          <e p="torch" t="Include">
+            <e p="readme.txt" t="Include" />
+            <e p="scene" t="Include">
+              <e p="script" t="Include">
+                <e p="TorchSlider.cs" t="Include" />
+                <e p="Torchslider2.cs" t="Include" />
+              </e>
+            </e>
+            <e p="scripts" t="Include">
+              <e p="Torchelight.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Workplace Tools" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="scripts" t="Include">
+          <e p="Common" t="Include">
+            <e p="GameManager.cs" t="Include" />
+            <e p="MouseRotation.cs" t="Include" />
+            <e p="Scenes.cs" t="Include" />
+            <e p="Spawn.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RubikChurch.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
