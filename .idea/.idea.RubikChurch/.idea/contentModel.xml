@@ -42,10 +42,17 @@
         </e>
         <e p="scripts" t="Include">
           <e p="Common" t="Include">
+            <e p="Clickable.cs" t="Include" />
+            <e p="Clicker.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
+            <e p="Interface.cs" t="Include" />
             <e p="MouseRotation.cs" t="Include" />
             <e p="Scenes.cs" t="Include" />
+            <e p="Selectable.cs" t="Include" />
             <e p="Spawn.cs" t="Include" />
+          </e>
+          <e p="Scene0" t="Include">
+            <e p="MonitorController.cs" t="Include" />
           </e>
         </e>
       </e>

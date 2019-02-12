@@ -66,6 +66,8 @@ public class Scenes : MonoBehaviour
             moveScene(scene);
             goToSceneNumber = -1;
         }
+        else
+            goToSceneNumber = sceneNumber;
     }
 
     private static String getSceneName(int sceneNumber)
