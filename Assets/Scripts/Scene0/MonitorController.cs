@@ -11,9 +11,13 @@ public class MonitorController : MonoBehaviour
     [SerializeField] private GameObject blAlert;
     [SerializeField] private GameObject blGame;
     [SerializeField] private GameObject icons;
+    [SerializeField] private Scene0 scene;
     
     public void openBrowser()
     {
+        if (!scene.cubeUp)
+            return;
+        
         mainScreen.SetActive(false);
         browserSearch.SetActive(true);
     }

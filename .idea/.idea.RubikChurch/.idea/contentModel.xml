@@ -60,6 +60,7 @@
           </e>
           <e p="Scene0" t="Include">
             <e p="MonitorController.cs" t="Include" />
+            <e p="Scene0.cs" t="Include" />
           </e>
         </e>
       </e>
