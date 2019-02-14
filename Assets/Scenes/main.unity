@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f20bf5c9942294344aee987e8f08e0f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitles: {fileID: 1616768060}
+  description: {fileID: 1616768060}
 --- !u!1 &901072454
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 1616768061}
   - component: {fileID: 1616768060}
   m_Layer: 0
-  m_Name: Subtitles
+  m_Name: Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

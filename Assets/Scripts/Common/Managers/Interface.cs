@@ -6,10 +6,24 @@ using UnityEngine.UI;
 
 public class Interface : MonoBehaviour
 {
-    [SerializeField] private Text subtitles;
+    [SerializeField] private Text description;
+    
+    private static Interface instance;
 
-    public void changeSubtitles(String text)
+    void Start()
     {
-        subtitles.text = text;
+        instance = this;
     }
+
+    public static Interface getI()
+    {
+        return instance;
+    }
+    
+    public void changeDescription(String text)
+    {
+        description.text = text;
+    }
+    
+    
 }
