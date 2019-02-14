@@ -9,6 +9,7 @@ public class Scenes : MonoBehaviour
 {
     private static List<Scene> scenes;
     private static int goToSceneNumber = -1;
+    private static int currentScene = -1;
 
     public static void Init()
     {
@@ -46,12 +47,20 @@ public class Scenes : MonoBehaviour
 
     private static void moveScene(Scene scene)
     {
+        // hide old scene
+        if (currentScene >= 0)
+        {
+            Scene oldScene = getSceneByNumber(currentScene);
+            oldScene.GetRootGameObjects()[0].SetActive(false);
+        }
+        
         // move player to new scene
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         SceneManager.MoveGameObjectToScene(player, scene);
         
         // activate scene
         SceneManager.SetActiveScene(scene);
+        scene.GetRootGameObjects()[0].SetActive(true);
         
         // spawn player
         GameObject spawn = GameObject.FindGameObjectWithTag("Spawn");
@@ -60,7 +69,7 @@ public class Scenes : MonoBehaviour
     
     public static void goToScene(int sceneNumber)
     {
-        Scene scene = SceneManager.GetSceneByName(getSceneName(sceneNumber));
+        Scene scene = getSceneByNumber(sceneNumber);
         if (scene.isLoaded)
         {
             moveScene(scene);
@@ -73,5 +82,10 @@ public class Scenes : MonoBehaviour
     private static String getSceneName(int sceneNumber)
     {
         return "Scene" + sceneNumber;
+    }
+
+    private static Scene getSceneByNumber(int sceneNumber)
+    {
+        return SceneManager.GetSceneByName(getSceneName(sceneNumber));
     }
 }
