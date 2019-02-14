@@ -52,6 +52,7 @@
               <e p="Clicker.cs" t="Include" />
               <e p="MouseRotation.cs" t="Include" />
               <e p="Move.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
             </e>
             <e p="Properties" t="Include">
               <e p="Clickable.cs" t="Include" />

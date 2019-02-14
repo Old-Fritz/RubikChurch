@@ -106,7 +106,7 @@ public class MonitorController : MonoBehaviour
 
     private BLSave getBLSave()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        GameObject player = Player.player;
         if (player)
             return player.GetComponent<BLSave>();
         return null;

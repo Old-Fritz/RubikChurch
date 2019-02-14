@@ -14,6 +14,11 @@ public class Table : MonoBehaviour
             Interface.getI().showSubtitles(unReadyText, 3);
         else
         {
+            // move accepted in scene1
+            Move playerMove = Player.player.GetComponent<Move>();
+            if (playerMove)
+                playerMove.moveAccepted = true;
+            
             Scenes.loadScene(1);
             Scenes.goToScene(1);
             Scenes.unLoadScene(0);
