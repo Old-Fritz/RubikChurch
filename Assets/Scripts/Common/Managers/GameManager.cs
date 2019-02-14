@@ -9,8 +9,8 @@ public class GameManager : MonoBehaviour
     {
         // go to start scene
         Scenes.Init();
-        Scenes.loadScene(0);
-        Scenes.goToScene(0);
+        Scenes.loadScene(1);
+        Scenes.goToScene(1);
     }
 
 }

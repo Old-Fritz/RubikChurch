@@ -38,6 +38,8 @@ public class Scenes : MonoBehaviour
             moveScene(scene);
             goToSceneNumber = -1;
         }
+        else
+            scene.GetRootGameObjects()[0].SetActive(false);
             
     }
     private static void onSceneUnloaded(Scene scene)
