@@ -61,7 +61,7 @@ public class Scenes : MonoBehaviour
         // activate scene
         SceneManager.SetActiveScene(scene);
         scene.GetRootGameObjects()[0].SetActive(true);
-        
+                
         // spawn player
         GameObject spawn = GameObject.FindGameObjectWithTag("Spawn");
         spawn.GetComponent<Spawn>().spawn(player);

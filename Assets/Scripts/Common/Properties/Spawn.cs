@@ -9,7 +9,6 @@ public class Spawn : MonoBehaviour
         // set player transform params as in spawn
         player.transform.localPosition = transform.localPosition;
         player.transform.localRotation = transform.localRotation;
-        player.transform.parent = transform.parent;
         player.GetComponent<MouseRotation>().setDefault();
     }
 }

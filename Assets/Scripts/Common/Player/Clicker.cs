@@ -17,7 +17,9 @@ public class Clicker : MonoBehaviour
         GameObject obj = rayCast();
         
         // calculate distance
-        float dist = Vector3.Distance(transform.position, obj.transform.position);
+        float dist = 0;
+        if(obj)
+            Vector3.Distance(transform.position, obj.transform.position);
         
         // invoke methods for selected objects
         reSelect(obj, dist);

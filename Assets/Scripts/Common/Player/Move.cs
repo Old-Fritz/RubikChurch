@@ -18,6 +18,10 @@ public class Move : MonoBehaviour
             CapsuleCollider collider = GetComponent<CapsuleCollider>();
             if (collider)
                 collider.enabled = value;
+
+            Rigidbody rigid = GetComponent<Rigidbody>();
+            if (rigid)
+                rigid.useGravity = value;
         }
     }
 
