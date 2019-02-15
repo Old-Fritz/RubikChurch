@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Player/Clicker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Player/Clicker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Draggable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Draggable.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +38,8 @@
       <file leaf-file-name="Draggable.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/Draggable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="120">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <marker date="1550255498257" expanded="false" signature="6:78" ph="..." />
                 <marker date="1550255498257" expanded="true" signature="118:1182" ph="{...}" />
@@ -347,12 +342,12 @@
       <workItem from="1550066408289" duration="2258000" />
       <workItem from="1550100369692" duration="18324000" />
       <workItem from="1550190948600" duration="3882000" />
-      <workItem from="1550228154164" duration="9425000" />
+      <workItem from="1550228154164" duration="11963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56566000" />
+    <option name="totallyTimeSpent" value="59104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,7 +376,7 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.6890625" visible="true" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.6890625" weight="0.3995749" />
       <window_info anchor="bottom" id="NuGet" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -828,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/Draggable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <marker date="1550255498257" expanded="false" signature="6:78" ph="..." />
             <marker date="1550255498257" expanded="true" signature="118:1182" ph="{...}" />
