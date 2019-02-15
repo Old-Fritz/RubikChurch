@@ -36,6 +36,7 @@ public class Scenes : MonoBehaviour
         if (goToSceneNumber >= 0 && scene.name == getSceneName(goToSceneNumber))
         {
             moveScene(scene);
+            currentScene = goToSceneNumber;
             goToSceneNumber = -1;
         }
         else
@@ -50,15 +51,12 @@ public class Scenes : MonoBehaviour
     private static void moveScene(Scene scene)
     {
         // hide old scene
-        if (currentScene >= 0)
-        {
-            Scene oldScene = getSceneByNumber(currentScene);
-            oldScene.GetRootGameObjects()[0].SetActive(false);
-        }
+        Scene oldScene = getSceneByNumber(currentScene);
+        oldScene.GetRootGameObjects()[0].SetActive(false);
         
         // move player to new scene
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        SceneManager.MoveGameObjectToScene(player, scene);
+            SceneManager.MoveGameObjectToScene(player, scene);
         
         // activate scene
         SceneManager.SetActiveScene(scene);
@@ -67,6 +65,8 @@ public class Scenes : MonoBehaviour
         // spawn player
         GameObject spawn = GameObject.FindGameObjectWithTag("Spawn");
         spawn.GetComponent<Spawn>().spawn(player);
+        
+
     }
     
     public static void goToScene(int sceneNumber)
@@ -75,6 +75,7 @@ public class Scenes : MonoBehaviour
         if (scene.isLoaded)
         {
             moveScene(scene);
+            currentScene = sceneNumber;
             goToSceneNumber = -1;
         }
         else
@@ -83,6 +84,8 @@ public class Scenes : MonoBehaviour
 
     private static String getSceneName(int sceneNumber)
     {
+        if (sceneNumber < 0)
+            return "main";
         return "Scene" + sceneNumber;
     }
 

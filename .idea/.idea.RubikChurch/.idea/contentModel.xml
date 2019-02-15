@@ -65,6 +65,9 @@
             <e p="Scene0.cs" t="Include" />
             <e p="Table.cs" t="Include" />
           </e>
+          <e p="Scene1" t="Include">
+            <e p="Door.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

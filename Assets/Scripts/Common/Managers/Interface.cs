@@ -9,17 +9,13 @@ public class Interface : MonoBehaviour
     [SerializeField] private Text description;
     [SerializeField] private Text subtitles;
     
-    private static Interface instance;
     private int subsID = 0;
+    
+    public static Interface main { get; protected set; }
 
     void Start()
     {
-        instance = this;
-    }
-
-    public static Interface getI()
-    {
-        return instance;
+        main = this;
     }
     
     public void changeDescription(String text)
@@ -32,13 +28,7 @@ public class Interface : MonoBehaviour
         subtitles.text = text;
         StartCoroutine(clearSubtitles(time));
     }
-
-    public void clear()
-    {
-        subtitles.text = "";
-        description.text = "";
-    }
-
+    
     IEnumerator clearSubtitles(float time)
     {
         int id = ++subsID;
@@ -46,5 +36,6 @@ public class Interface : MonoBehaviour
         if (id == subsID)
             subtitles.text = "";
     }
+    
     
 }

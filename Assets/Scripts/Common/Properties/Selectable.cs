@@ -10,15 +10,25 @@ public class Selectable : MonoBehaviour
     [SerializeField] private UnityEvent onUnSelect;
     [SerializeField] private String descriptionText;
 
+    private bool selected = false;
+
     public void select()
     {
         onSelect.Invoke();
-        Interface.getI().changeDescription(descriptionText);
+        Interface.main.changeDescription(descriptionText);
+        selected = true;
     }
 
     public void unSelect()
     {
         onUnSelect.Invoke();
-        Interface.getI().changeDescription("");
+        selected = false;
+    }
+
+    public void setDesc(String text)
+    {
+        descriptionText = text;
+        if(selected)
+            Interface.main.changeDescription(descriptionText);
     }
 }

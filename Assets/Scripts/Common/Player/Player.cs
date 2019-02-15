@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public static GameObject player
+    public static GameObject main
     {
         get;
         protected set;
@@ -12,6 +12,6 @@ public class Player : MonoBehaviour
     
     void Start()
     {
-        player = gameObject;
+        main = gameObject;
     }
 }

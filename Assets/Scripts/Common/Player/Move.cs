@@ -7,17 +7,23 @@ public class Move : MonoBehaviour
     [SerializeField] private GameObject camera;
     [SerializeField] private float speed;
 
+    private bool _moveAccepted;
     public bool moveAccepted
     {
-        get { return moveAccepted; }
+        get { return _moveAccepted; }
         set
         {
-            moveAccepted = value;
+            _moveAccepted = value;
 
             CapsuleCollider collider = GetComponent<CapsuleCollider>();
             if (collider)
                 collider.enabled = value;
         }
+    }
+
+    void Start()
+    {
+        moveAccepted = true;
     }
     
     // Update is called once per frame

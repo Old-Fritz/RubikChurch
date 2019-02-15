@@ -34,8 +34,10 @@ public class Clicker : MonoBehaviour
     {
         if (!selected || selected != newSelected)
         {
+            // clear old description
+            Interface.main.changeDescription("");
+            
             // check for selectable and invoke methods
-
             if (selected)
             {
                 Selectable selectComp = selected.GetComponent<Selectable>();

@@ -11,17 +11,18 @@ public class Table : MonoBehaviour
     public void onClick()
     {
         if (!scene.cubeUp)
-            Interface.getI().showSubtitles(unReadyText, 3);
+            Interface.main.showSubtitles(unReadyText, 3);
         else
         {
             // move accepted in scene1
-            Move playerMove = Player.player.GetComponent<Move>();
+            Move playerMove = Player.main.GetComponent<Move>();
             if (playerMove)
                 playerMove.moveAccepted = true;
             
             Scenes.loadScene(1);
             Scenes.goToScene(1);
             Scenes.unLoadScene(0);
+            Scenes.loadScene(2);
         }
     }
 }
