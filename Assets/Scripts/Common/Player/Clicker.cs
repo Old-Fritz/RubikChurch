@@ -9,10 +9,14 @@ public class Clicker : MonoBehaviour
     [SerializeField] private GameObject camera;
 
     private GameObject selected  = null;
+    private Draggable dragged = null;
     
     // Update is called once per frame
     void Update ()
     {
+        // perform drag
+        performDrag();
+        
         // get front object
         GameObject obj = rayCast();
         
@@ -27,9 +31,13 @@ public class Clicker : MonoBehaviour
         // invoke click on click
         if (Input.GetMouseButtonUp(0) && obj)
         {
-            Clickable clickable = obj.GetComponent<Clickable>();
-            if(clickable && clickable.getDist()>=dist)
-                clickable.click();
+            click(obj, dist);
+            checkDrag(obj, dist);
+        }
+
+        if (Input.GetMouseButtonUp(1) && obj)
+        {
+            pushDrag();
         }
     }
 
@@ -78,9 +86,56 @@ public class Clicker : MonoBehaviour
         }
         
     }
-    
-    
 
+    private void click(GameObject clicked, float dist)
+    {
+        Clickable clickable = clicked.GetComponent<Clickable>();
+        if(clickable && clickable.getDist()>=dist)
+            clickable.click();
+    }
+
+    private void checkDrag(GameObject drag,  float dist)
+    {
+        // undrag object
+        if (dragged)
+        {
+            dragged.endDrag();
+            dragged = null;
+        }
+        else
+        {
+            Draggable dragComp = drag.GetComponent<Draggable>();
+            if (dragComp && dragComp.getStartDist()>=dist)
+            {
+                dragged = dragComp;
+                dragged.startDrag();
+            }
+            
+        }
+    }
+
+    private void pushDrag()
+    {
+        if (dragged)
+        {
+            dragged.endDrag();
+            dragged.push(camera.transform.TransformDirection(Vector3.forward));
+            dragged = null;
+        }
+    }
+
+    private void performDrag()
+    {
+        if (dragged)
+        {
+            // alculate delta position from player
+            Vector3 delta = camera.transform.TransformDirection(Vector3.forward) * dragged.getWorkDist();
+            // set position in front of camera
+            dragged.transform.position = camera.transform.position + delta;
+
+        }
+    }
+    
     private GameObject rayCast()
     {
         RaycastHit hit;
