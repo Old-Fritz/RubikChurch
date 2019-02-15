@@ -9,6 +9,7 @@ public class Selectable : MonoBehaviour
     [SerializeField] private UnityEvent onSelect;
     [SerializeField] private UnityEvent onUnSelect;
     [SerializeField] private String descriptionText;
+    [SerializeField] private float distance;
 
     private bool selected = false;
 
@@ -30,5 +31,10 @@ public class Selectable : MonoBehaviour
         descriptionText = text;
         if(selected)
             Interface.main.changeDescription(descriptionText);
+    }
+    
+    public float getDist()
+    {
+        return distance;
     }
 }

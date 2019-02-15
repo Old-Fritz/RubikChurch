@@ -15,24 +15,27 @@ public class Clicker : MonoBehaviour
     {
         // get front object
         GameObject obj = rayCast();
-        if (!obj)
-            return;
+        
+        // calculate distance
+        float dist = Vector3.Distance(transform.position, obj.transform.position);
         
         // invoke methods for selected objects
-        reSelect(obj);
+        reSelect(obj, dist);
         
         // invoke click on click
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && obj)
         {
             Clickable clickable = obj.GetComponent<Clickable>();
-            if(clickable)
+            if(clickable && clickable.getDist()>=dist)
                 clickable.click();
         }
     }
 
-    private void reSelect(GameObject newSelected)
+    private void reSelect(GameObject newSelected, float dist)
     {
-        if (!selected || selected != newSelected)
+        
+        // reselect if has been choosen another object
+        if (selected != newSelected)
         {
             // clear old description
             Interface.main.changeDescription("");
@@ -44,14 +47,34 @@ public class Clicker : MonoBehaviour
                 if(selectComp)
                     selectComp.unSelect();
             }
-            
-            Selectable newSelectComp = newSelected.GetComponent<Selectable>();
-            
-            if (newSelectComp)
-                newSelectComp.select();
-            
-            selected = newSelected;
+
+            if (newSelected)
+            {
+                Selectable newSelectComp = newSelected.GetComponent<Selectable>();
+
+                if (newSelectComp && newSelectComp.getDist() >= dist)
+                {
+                    newSelectComp.select();
+                    selected = newSelected;
+                }
+                else
+                {
+                    selected = null;
+                }
+            }
+           
         }
+        // unselect if distance is too big
+        else if (selected)
+        {
+            Selectable selectComp = selected.GetComponent<Selectable>();
+            if (selectComp && selectComp.getDist() < dist)
+            {
+                selectComp.unSelect();
+                selected = null;
+            }
+        }
+        
     }
     
     
