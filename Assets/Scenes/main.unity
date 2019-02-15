@@ -930,6 +930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDistance: 100
   camera: {fileID: 2096669371}
+  pushForse: 300
 --- !u!114 &1765520193
 MonoBehaviour:
   m_ObjectHideFlags: 0

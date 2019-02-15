@@ -7,6 +7,7 @@ public class Clicker : MonoBehaviour
     
     [SerializeField] private float maxDistance = 100;
     [SerializeField] private GameObject camera;
+    [SerializeField] private float pushForse = 1000;
 
     private GameObject selected  = null;
     private Draggable dragged = null;
@@ -23,7 +24,7 @@ public class Clicker : MonoBehaviour
         // calculate distance
         float dist = 0;
         if(obj)
-            Vector3.Distance(transform.position, obj.transform.position);
+            dist = Vector3.Distance(transform.position, obj.transform.position);
         
         // invoke methods for selected objects
         reSelect(obj, dist);
@@ -109,8 +110,8 @@ public class Clicker : MonoBehaviour
             {
                 dragged = dragComp;
                 dragged.startDrag();
+                dragged.transform.parent = camera.transform;
             }
-            
         }
     }
 
@@ -119,7 +120,7 @@ public class Clicker : MonoBehaviour
         if (dragged)
         {
             dragged.endDrag();
-            dragged.push(camera.transform.TransformDirection(Vector3.forward));
+            dragged.push(camera.transform.TransformDirection(Vector3.forward)*pushForse);
             dragged = null;
         }
     }
@@ -128,11 +129,11 @@ public class Clicker : MonoBehaviour
     {
         if (dragged)
         {
-            // alculate delta position from player
-            Vector3 delta = camera.transform.TransformDirection(Vector3.forward) * dragged.getWorkDist();
+            // calculate position from player
+            Vector3 position = Vector3.forward * dragged.getWorkDist();
+            
             // set position in front of camera
-            dragged.transform.position = camera.transform.position + delta;
-
+            dragged.transform.localPosition = Vector3.MoveTowards(dragged.transform.localPosition, position, 5*Time.deltaTime);
         }
     }
     
