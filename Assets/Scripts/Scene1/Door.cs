@@ -31,7 +31,6 @@ public class Door : MonoBehaviour
         if (select)
             select.setDesc(afterKnockDescText);
 
-
         knock = true;
     }
 

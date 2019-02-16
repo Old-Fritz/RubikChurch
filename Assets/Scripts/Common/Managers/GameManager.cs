@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Common.PlayerComps;
+using UnityEngine;
 
 namespace Common.Managers
 {
@@ -21,10 +22,15 @@ namespace Common.Managers
         {
             if (Input.GetMouseButtonUp(0))
             {
+                // move accepted in scene1
+                Move playerMove = Player.main.GetComponent<Move>();
+                if (playerMove)
+                    playerMove.moveAccepted = true;
+                
                 // go to start scene
-                Scenes.loadScene(0);
-                Scenes.goToScene(0);
-                //Scenes.loadScene(2);
+                Scenes.loadScene(1);
+                Scenes.goToScene(1);
+                Scenes.loadScene(2);
                 onStart = false;
             }
         }

@@ -48,7 +48,7 @@
               <e p="NotesWindow.cs" t="Include" />
               <e p="Scenes.cs" t="Include" />
             </e>
-            <e p="Player" t="Include">
+            <e p="PlayerComps" t="Include">
               <e p="BLSave.cs" t="Include" />
               <e p="Clicker.cs" t="Include" />
               <e p="MouseRotation.cs" t="Include" />
@@ -76,6 +76,17 @@
           </e>
           <e p="Scene1" t="Include">
             <e p="Door.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
+          </e>
+          <e p="Scene2" t="Include">
+            <e p="Carpet.cs" t="Include" />
+            <e p="HiddenDoor.cs" t="Include" />
+            <e p="InDoor.cs" t="Include" />
+            <e p="Luke.cs" t="Include" />
+            <e p="OutDoor.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
+            <e p="TriggerBox.cs" t="Include" />
+            <e p="TriggerCube.cs" t="Include" />
           </e>
         </e>
       </e>

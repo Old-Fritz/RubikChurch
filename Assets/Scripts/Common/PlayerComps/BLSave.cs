@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Common.Player
+namespace Common.PlayerComps
 {
     public class BLSave : MonoBehaviour
     {

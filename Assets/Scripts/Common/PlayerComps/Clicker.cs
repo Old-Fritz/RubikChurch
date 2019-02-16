@@ -2,7 +2,7 @@
 using Common.Properties;
 using UnityEngine;
 
-namespace Common.Player
+namespace Common.PlayerComps
 {
     public class Clicker : MonoBehaviour
     {   

@@ -1,6 +1,6 @@
 ﻿using System;
 using Common.Managers;
-using Common.Player;
+using Common.PlayerComps;
 using UnityEngine;
 
 namespace Scene0
