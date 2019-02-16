@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class HomeCube : MonoBehaviour
 {
-    [SerializeField] private GameObject movePosition;
+    [SerializeField] private GameObject note;
 
     [SerializeField] private String afterTouchDesc;
     [SerializeField] private String afterTouchSubs;
@@ -32,8 +32,8 @@ public class HomeCube : MonoBehaviour
         }
         if (taken && !moved)
         {
-            transform.position = Vector3.MoveTowards(transform.position, movePosition.transform.position,moveSpeed*Time.deltaTime);
-            if (transform.position == movePosition.transform.position)
+            transform.position = Vector3.MoveTowards(transform.position, note.transform.position,moveSpeed*Time.deltaTime);
+            if (transform.position == note.transform.position)
                 moved = true;
         }
     }
@@ -80,10 +80,14 @@ public class HomeCube : MonoBehaviour
                 rigidbody.AddForce(part.transform.localPosition*brokePower);
             }
         }
-
+        
+        // hide cube collider
         BoxCollider cubeCollider = GetComponent<BoxCollider>();
         if (cubeCollider)
             cubeCollider.enabled = false;
+        
+        // show note
+        note.SetActive(true);
     }
     
     

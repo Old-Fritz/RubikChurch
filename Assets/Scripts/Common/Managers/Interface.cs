@@ -8,9 +8,13 @@ public class Interface : MonoBehaviour
 {
     [SerializeField] private Text description;
     [SerializeField] private Text subtitles;
+    [SerializeField] private NotesWindow notes;
+    
     
     private int subsID = 0;
-    
+
+
+    public bool notesShowed { get {return notes.gameObject.activeInHierarchy;} }
     public static Interface main { get; protected set; }
 
     void Start()
@@ -28,6 +32,12 @@ public class Interface : MonoBehaviour
         subtitles.text = text;
         StartCoroutine(clearSubtitles(time));
     }
+
+    public void showNotes(List<String> notesStr)
+    {
+        notes.gameObject.SetActive(true);
+        notes.showNotes(notesStr);
+    }
     
     IEnumerator clearSubtitles(float time)
     {
@@ -36,6 +46,8 @@ public class Interface : MonoBehaviour
         if (id == subsID)
             subtitles.text = "";
     }
+
+    
     
     
 }

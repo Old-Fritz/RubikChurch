@@ -45,6 +45,7 @@
             <e p="Managers" t="Include">
               <e p="GameManager.cs" t="Include" />
               <e p="Interface.cs" t="Include" />
+              <e p="NotesWindow.cs" t="Include" />
               <e p="Scenes.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
@@ -57,6 +58,7 @@
             <e p="Properties" t="Include">
               <e p="Clickable.cs" t="Include" />
               <e p="Draggable.cs" t="Include" />
+              <e p="Note.cs" t="Include" />
               <e p="Selectable.cs" t="Include" />
               <e p="Spawn.cs" t="Include" />
             </e>
@@ -67,6 +69,7 @@
           </e>
           <e p="Scene0" t="Include">
             <e p="HomeCube.cs" t="Include" />
+            <e p="HomeNote.cs" t="Include" />
             <e p="MonitorController.cs" t="Include" />
             <e p="Scene0.cs" t="Include" />
             <e p="Table.cs" t="Include" />

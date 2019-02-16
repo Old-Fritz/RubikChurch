@@ -15,6 +15,8 @@ public class Clicker : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
+        if (Interface.main.notesShowed)
+            return;
         // perform drag
         performDrag();
         
