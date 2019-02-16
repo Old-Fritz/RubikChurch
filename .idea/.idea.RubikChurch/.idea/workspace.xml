@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Player.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,15 +29,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
               <folding>
-                <marker date="1550319882143" expanded="true" signature="48:239" ph="{...}" />
-                <marker date="1550319882143" expanded="true" signature="90:237" ph="{...}" />
-                <marker date="1550319882143" expanded="true" signature="180:231" ph="{...}" />
+                <marker date="1550322792780" expanded="true" signature="6:53" ph="..." />
+                <marker date="1550322792780" expanded="true" signature="83:495" ph="{...}" />
+                <marker date="1550322792780" expanded="true" signature="125:493" ph="{...}" />
+                <marker date="1550322792780" expanded="true" signature="277:410" ph="{...}" />
+                <marker date="1550322792780" expanded="true" signature="436:487" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -59,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SceneCur.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SceneCur.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/SceneCur.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
               <folding>
                 <marker date="1550318671450" expanded="false" signature="6:140" ph="..." />
                 <marker date="1550318671450" expanded="true" signature="179:426" ph="{...}" />
@@ -172,9 +175,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene2/SceneCur.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene1/SceneCur.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Managers/Scenes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Player.cs" />
       </list>
     </option>
   </component>
@@ -187,7 +190,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="854" />
     <option name="width" value="1073" />
     <option name="height" value="1047" />
@@ -307,12 +310,12 @@
       <workItem from="1550190948600" duration="3882000" />
       <workItem from="1550228154164" duration="11963000" />
       <workItem from="1550265681127" duration="24456000" />
-      <workItem from="1550312602110" duration="3923000" />
+      <workItem from="1550312602110" duration="5109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87483000" />
+    <option name="totallyTimeSpent" value="88669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,18 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1550319882143" expanded="true" signature="48:239" ph="{...}" />
-            <marker date="1550319882143" expanded="true" signature="90:237" ph="{...}" />
-            <marker date="1550319882143" expanded="true" signature="180:231" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -810,12 +801,26 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/SceneCur.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding>
             <marker date="1550318671450" expanded="false" signature="6:140" ph="..." />
             <marker date="1550318671450" expanded="true" signature="179:426" ph="{...}" />
             <marker date="1550318671450" expanded="true" signature="292:327" ph="{...}" />
             <marker date="1550318671450" expanded="true" signature="355:424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding>
+            <marker date="1550322792780" expanded="true" signature="6:53" ph="..." />
+            <marker date="1550322792780" expanded="true" signature="83:495" ph="{...}" />
+            <marker date="1550322792780" expanded="true" signature="125:493" ph="{...}" />
+            <marker date="1550322792780" expanded="true" signature="277:410" ph="{...}" />
+            <marker date="1550322792780" expanded="true" signature="436:487" ph="{...}" />
           </folding>
         </state>
       </provider>
