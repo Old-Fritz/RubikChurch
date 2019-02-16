@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Carpets/Free Rug Pack/Material/Material1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Carpets/Free Rug Pack/Material/Material1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Carpets/Free Rug Pack/Material/Material2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Carpets/Free Rug Pack/Material/Material2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Carpets/Free Rug Pack/Material/Material3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Carpets/Free Rug Pack/Material/Material3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Bolt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Bolt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Hammer_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Hammer_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Pipe_Wrench.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Pipe_Wrench.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screw_Cross.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screw_Cross.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screw_Cross_Round.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screw_Cross_Round.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screw_Single.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screw_Single.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screw_Single_Round.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screw_Single_Round.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screwdriver_Cross.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screwdriver_Cross.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screwdriver_Single.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Screwdriver_Single.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Wrench_Open.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Workplace Tools/Prefabs/Wrench_Open.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +60,8 @@
       <file leaf-file-name="OpeningDoor.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/OpeningDoor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="380">
+              <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
               <folding>
                 <marker date="1550354916234" expanded="true" signature="6:55" ph="..." />
                 <marker date="1550354916234" expanded="true" signature="73:1626" ph="{...}" />
@@ -344,7 +348,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="854" />
     <option name="width" value="1073" />
     <option name="height" value="1047" />
@@ -369,57 +373,6 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -476,12 +429,12 @@
       <workItem from="1550190948600" duration="3882000" />
       <workItem from="1550228154164" duration="11963000" />
       <workItem from="1550265681127" duration="24456000" />
-      <workItem from="1550312602110" duration="12941000" />
+      <workItem from="1550312602110" duration="13809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96501000" />
+    <option name="totallyTimeSpent" value="97369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,7 +447,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -504,13 +456,13 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.6875" visible="true" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.6875" visible="true" weight="0.3995749" />
       <window_info anchor="bottom" id="NuGet" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1050,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/OpeningDoor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="380">
+          <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
           <folding>
             <marker date="1550354916234" expanded="true" signature="6:55" ph="..." />
             <marker date="1550354916234" expanded="true" signature="73:1626" ph="{...}" />
