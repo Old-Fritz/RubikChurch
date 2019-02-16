@@ -18,7 +18,7 @@ namespace Scene1
 
         public void changeSpawn()
         {
-            spawn.tag = null;
+            spawn.tag = "Untagged";
             newSpawn.tag = "Spawn";
         }
         

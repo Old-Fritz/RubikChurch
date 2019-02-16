@@ -43,5 +43,10 @@ namespace Common.PlayerComps
 		{
 			camera.transform.localRotation = originRotation;
 		}
+
+		public void setRotation(Quaternion newRotation)
+		{
+			camera.transform.localRotation = newRotation;
+		}
 	}
 }

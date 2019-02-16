@@ -9,8 +9,8 @@ namespace Common.Properties
         {
             // set player transform params as in spawn
             player.transform.localPosition = transform.localPosition;
-            player.transform.localRotation = transform.localRotation;
-            player.GetComponent<MouseRotation>().setDefault();
+            //player.transform.localRotation = transform.localRotation;
+            player.GetComponent<MouseRotation>().setRotation(transform.localRotation);
         }
     }
 }

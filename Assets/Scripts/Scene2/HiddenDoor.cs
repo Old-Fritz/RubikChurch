@@ -43,5 +43,6 @@ public class HiddenDoor : MonoBehaviour
         // set target pos
         float length = transform.localScale.y;
         targetPos = transform.position - new Vector3(0, length, 0);
+        opening = true;
     }
 }
