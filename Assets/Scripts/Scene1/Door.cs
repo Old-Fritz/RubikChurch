@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Common.Managers;
+using Common.Properties;
 using UnityEngine;
 
 public class Door : MonoBehaviour

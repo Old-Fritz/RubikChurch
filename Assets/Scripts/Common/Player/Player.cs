@@ -1,13 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Player : MonoBehaviour
+namespace Common.Player
 {
-    public static GameObject main{get;protected set;}
-    
-    void Start()
+    public class Player : MonoBehaviour
     {
-        main = gameObject;
+        public static GameObject main{get;protected set;}
+    
+        void Start()
+        {
+            main = gameObject;
+        }
     }
 }

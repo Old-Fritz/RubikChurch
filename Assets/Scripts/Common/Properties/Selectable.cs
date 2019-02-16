@@ -1,40 +1,42 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+using Common.Managers;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Selectable : MonoBehaviour
+namespace Common.Properties
 {
-    [SerializeField] private UnityEvent onSelect;
-    [SerializeField] private UnityEvent onUnSelect;
-    [SerializeField] private String descriptionText;
-    [SerializeField] private float distance;
-
-    private bool selected = false;
-
-    public void select()
+    public class Selectable : MonoBehaviour
     {
-        onSelect.Invoke();
-        Interface.main.changeDescription(descriptionText);
-        selected = true;
-    }
+        [SerializeField] private UnityEvent onSelect;
+        [SerializeField] private UnityEvent onUnSelect;
+        [SerializeField] private String descriptionText;
+        [SerializeField] private float distance;
 
-    public void unSelect()
-    {
-        onUnSelect.Invoke();
-        selected = false;
-    }
+        private bool selected = false;
 
-    public void setDesc(String text)
-    {
-        descriptionText = text;
-        if(selected)
+        public void select()
+        {
+            onSelect.Invoke();
             Interface.main.changeDescription(descriptionText);
-    }
+            selected = true;
+        }
+
+        public void unSelect()
+        {
+            onUnSelect.Invoke();
+            selected = false;
+        }
+
+        public void setDesc(String text)
+        {
+            descriptionText = text;
+            if(selected)
+                Interface.main.changeDescription(descriptionText);
+        }
     
-    public float getDist()
-    {
-        return distance;
+        public float getDist()
+        {
+            return distance;
+        }
     }
 }

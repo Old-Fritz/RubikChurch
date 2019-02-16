@@ -1,15 +1,18 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
+using Common.Managers;
 using UnityEngine;
 
-public class Note : MonoBehaviour
+namespace Common.Properties
 {
-    [SerializeField] private List<String> notes;
-    
-    
-    public void onClick()
+    public class Note : MonoBehaviour
     {
-        Interface.main.showNotes(notes);
+        [SerializeField] private List<String> notes;
+    
+    
+        public void onClick()
+        {
+            Interface.main.showNotes(notes);
+        }
     }
 }

@@ -71,7 +71,7 @@
             <e p="HomeCube.cs" t="Include" />
             <e p="HomeNote.cs" t="Include" />
             <e p="MonitorController.cs" t="Include" />
-            <e p="Scene0.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
             <e p="Table.cs" t="Include" />
           </e>
           <e p="Scene1" t="Include">

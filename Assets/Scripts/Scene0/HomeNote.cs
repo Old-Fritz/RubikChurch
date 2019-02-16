@@ -1,23 +1,22 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Analytics;
+﻿using UnityEngine;
 
-public class HomeNote : MonoBehaviour
+namespace Scene0
 {
-    [SerializeField] private GameObject movedPosition;
-    
-    
-    private bool moved;
-    
-    
-    public void onClick()
+    public class HomeNote : MonoBehaviour
     {
-        if (!moved)
+        [SerializeField] private GameObject movedPosition;
+    
+    
+        private bool moved;
+    
+    
+        public void onClick()
         {
-            transform.position = movedPosition.transform.position;
-            moved = true;
+            if (!moved)
+            {
+                transform.position = movedPosition.transform.position;
+                moved = true;
+            }
         }
     }
 }

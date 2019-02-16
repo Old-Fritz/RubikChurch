@@ -1,21 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class Clickable : MonoBehaviour
+namespace Common.Properties
 {
-
-    [SerializeField] private UnityEvent onClick;
-    [SerializeField] private float distance;
-
-    public void click()
+    public class Clickable : MonoBehaviour
     {
-        onClick.Invoke();
-    }
 
-    public float getDist()
-    {
-        return distance;
+        [SerializeField] private UnityEvent onClick;
+        [SerializeField] private float distance;
+
+        public void click()
+        {
+            onClick.Invoke();
+        }
+
+        public float getDist()
+        {
+            return distance;
+        }
     }
 }

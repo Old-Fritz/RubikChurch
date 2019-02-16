@@ -1,14 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Common.Player;
 using UnityEngine;
 
-public class Spawn : MonoBehaviour
+namespace Common.Properties
 {
-    public void spawn(GameObject player)
+    public class Spawn : MonoBehaviour
     {
-        // set player transform params as in spawn
-        player.transform.localPosition = transform.localPosition;
-        player.transform.localRotation = transform.localRotation;
-        player.GetComponent<MouseRotation>().setDefault();
+        public void spawn(GameObject player)
+        {
+            // set player transform params as in spawn
+            player.transform.localPosition = transform.localPosition;
+            player.transform.localRotation = transform.localRotation;
+            player.GetComponent<MouseRotation>().setDefault();
+        }
     }
 }

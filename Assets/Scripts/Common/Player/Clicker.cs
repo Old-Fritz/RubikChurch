@@ -1,150 +1,153 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Common.Managers;
+using Common.Properties;
 using UnityEngine;
 
-public class Clicker : MonoBehaviour
-{   
+namespace Common.Player
+{
+    public class Clicker : MonoBehaviour
+    {   
     
-    [SerializeField] private float maxDistance = 100;
-    [SerializeField] private GameObject camera;
-    [SerializeField] private float pushForse = 1000;
+        [SerializeField] private float maxDistance = 100;
+        [SerializeField] private GameObject camera;
+        [SerializeField] private float pushForse = 1000;
 
-    private GameObject selected  = null;
-    private Draggable dragged = null;
+        private GameObject selected  = null;
+        private Draggable dragged = null;
     
-    // Update is called once per frame
-    void Update ()
-    {
-        if (Interface.main.notesShowed)
-            return;
-        // perform drag
-        performDrag();
-        
-        // get front object
-        GameObject obj = rayCast();
-        
-        // calculate distance
-        float dist = 0;
-        if(obj)
-            dist = Vector3.Distance(transform.position, obj.transform.position);
-        
-        // invoke methods for selected objects
-        reSelect(obj, dist);
-        
-        // invoke click on click
-        if (Input.GetMouseButtonUp(0) && obj)
+        // Update is called once per frame
+        void Update ()
         {
-            click(obj, dist);
-            checkDrag(obj, dist);
-        }
-
-        if (Input.GetMouseButtonUp(1) && obj)
-        {
-            pushDrag();
-        }
-    }
-
-    private void reSelect(GameObject newSelected, float dist)
-    {
+            if (Interface.main.notesShowed)
+                return;
+            // perform drag
+            performDrag();
         
-        // reselect if has been choosen another object
-        if (selected != newSelected)
-        {
-            // clear old description
-            Interface.main.changeDescription("");
-            
-            // check for selectable and invoke methods
-            if (selected)
+            // get front object
+            GameObject obj = rayCast();
+        
+            // calculate distance
+            float dist = 0;
+            if(obj)
+                dist = Vector3.Distance(transform.position, obj.transform.position);
+        
+            // invoke methods for selected objects
+            reSelect(obj, dist);
+        
+            // invoke click on click
+            if (Input.GetMouseButtonUp(0) && obj)
             {
-                Selectable selectComp = selected.GetComponent<Selectable>();
-                if(selectComp)
-                    selectComp.unSelect();
+                click(obj, dist);
+                checkDrag(obj, dist);
             }
 
-            if (newSelected)
+            if (Input.GetMouseButtonUp(1) && obj)
             {
-                Selectable newSelectComp = newSelected.GetComponent<Selectable>();
+                pushDrag();
+            }
+        }
 
-                if (newSelectComp && newSelectComp.getDist() >= dist)
+        private void reSelect(GameObject newSelected, float dist)
+        {
+        
+            // reselect if has been choosen another object
+            if (selected != newSelected)
+            {
+                // clear old description
+                Interface.main.changeDescription("");
+            
+                // check for selectable and invoke methods
+                if (selected)
                 {
-                    newSelectComp.select();
-                    selected = newSelected;
+                    Selectable selectComp = selected.GetComponent<Selectable>();
+                    if(selectComp)
+                        selectComp.unSelect();
                 }
-                else
+
+                if (newSelected)
                 {
+                    Selectable newSelectComp = newSelected.GetComponent<Selectable>();
+
+                    if (newSelectComp && newSelectComp.getDist() >= dist)
+                    {
+                        newSelectComp.select();
+                        selected = newSelected;
+                    }
+                    else
+                    {
+                        selected = null;
+                    }
+                }
+           
+            }
+            // unselect if distance is too big
+            else if (selected)
+            {
+                Selectable selectComp = selected.GetComponent<Selectable>();
+                if (selectComp && selectComp.getDist() < dist)
+                {
+                    selectComp.unSelect();
                     selected = null;
                 }
             }
-           
-        }
-        // unselect if distance is too big
-        else if (selected)
-        {
-            Selectable selectComp = selected.GetComponent<Selectable>();
-            if (selectComp && selectComp.getDist() < dist)
-            {
-                selectComp.unSelect();
-                selected = null;
-            }
-        }
         
-    }
-
-    private void click(GameObject clicked, float dist)
-    {
-        Clickable clickable = clicked.GetComponent<Clickable>();
-        if(clickable && clickable.getDist()>=dist)
-            clickable.click();
-    }
-
-    private void checkDrag(GameObject drag,  float dist)
-    {
-        // undrag object
-        if (dragged)
-        {
-            dragged.endDrag();
-            dragged = null;
         }
-        else
+
+        private void click(GameObject clicked, float dist)
         {
-            Draggable dragComp = drag.GetComponent<Draggable>();
-            if (dragComp && dragComp.getStartDist()>=dist)
+            Clickable clickable = clicked.GetComponent<Clickable>();
+            if(clickable && clickable.getDist()>=dist)
+                clickable.click();
+        }
+
+        private void checkDrag(GameObject drag,  float dist)
+        {
+            // undrag object
+            if (dragged)
             {
-                dragged = dragComp;
-                dragged.startDrag();
-                dragged.transform.parent = camera.transform;
+                dragged.endDrag();
+                dragged = null;
+            }
+            else
+            {
+                Draggable dragComp = drag.GetComponent<Draggable>();
+                if (dragComp && dragComp.getStartDist()>=dist)
+                {
+                    dragged = dragComp;
+                    dragged.startDrag();
+                    dragged.transform.parent = camera.transform;
+                }
             }
         }
-    }
 
-    private void pushDrag()
-    {
-        if (dragged)
+        private void pushDrag()
         {
-            dragged.endDrag();
-            dragged.push(camera.transform.TransformDirection(Vector3.forward)*pushForse);
-            dragged = null;
+            if (dragged)
+            {
+                dragged.endDrag();
+                dragged.push(camera.transform.TransformDirection(Vector3.forward)*pushForse);
+                dragged = null;
+            }
         }
-    }
 
-    private void performDrag()
-    {
-        if (dragged)
+        private void performDrag()
         {
-            // calculate position from player
-            Vector3 position = Vector3.forward * dragged.getWorkDist();
+            if (dragged)
+            {
+                // calculate position from player
+                Vector3 position = Vector3.forward * dragged.getWorkDist();
             
-            // set position in front of camera
-            dragged.transform.localPosition = Vector3.MoveTowards(dragged.transform.localPosition, position, 5*Time.deltaTime);
+                // set position in front of camera
+                dragged.transform.localPosition = Vector3.MoveTowards(dragged.transform.localPosition, position, 5*Time.deltaTime);
+            }
         }
-    }
     
-    private GameObject rayCast()
-    {
-        RaycastHit hit;
-        if (Physics.Raycast(camera.transform.position, camera.transform.TransformDirection(Vector3.forward), out hit, maxDistance))
-            return hit.collider.gameObject;
+        private GameObject rayCast()
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(camera.transform.position, camera.transform.TransformDirection(Vector3.forward), out hit, maxDistance))
+                return hit.collider.gameObject;
 
-        return null;
+            return null;
+        }
     }
 }
