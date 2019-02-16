@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RubikCube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RubikCube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RubikCubeLight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RubikCubeLight.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Player/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Player/Move.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cube/RubikCube.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cube/RubikCube.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene0/Scene0.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene0/Scene0.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MonitorController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MonitorController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
+            <state relative-caret-position="270">
+              <caret line="69" column="50" lean-forward="true" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
               <folding>
                 <marker date="1550284962984" expanded="false" signature="6:100" ph="..." />
                 <marker date="1550284962984" expanded="true" signature="148:2648" ph="{...}" />
@@ -157,11 +144,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeCube.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeCube.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene0/HomeCube.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+            <state relative-caret-position="405">
+              <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
               <folding>
                 <marker date="1550287986249" expanded="false" signature="6:92" ph="..." />
                 <marker date="1550287986249" expanded="true" signature="131:2688" ph="{...}" />
@@ -443,12 +430,12 @@
       <workItem from="1550100369692" duration="18324000" />
       <workItem from="1550190948600" duration="3882000" />
       <workItem from="1550228154164" duration="11963000" />
-      <workItem from="1550265681127" duration="12579000" />
+      <workItem from="1550265681127" duration="12903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71683000" />
+    <option name="totallyTimeSpent" value="72007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,12 +458,12 @@
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.6880208" visible="true" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.6880208" visible="true" weight="0.3995749" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -497,7 +484,35 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="58" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs</url>
+          <line>67</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs" initialLine="67">
+            <startOffsets>
+              <startOffset value="1550" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1610" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs</url>
+          <line>60</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs" initialLine="60">
+            <startOffsets>
+              <startOffset value="1359" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1385" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="60" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
@@ -925,30 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
-          <folding>
-            <marker date="1550284962984" expanded="false" signature="6:100" ph="..." />
-            <marker date="1550284962984" expanded="true" signature="148:2648" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="532:676" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="706:794" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="822:911" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="943:1029" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="1063:1108" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="1138:1184" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="1210:1699" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="1527:1693" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="1726:1916" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="1946:2027" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="2063:2459" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="2146:2338" ph="{...}" />
-            <marker date="1550284962984" expanded="true" signature="2491:2646" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cube/RubikCube.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1764">
@@ -1011,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene0/HomeCube.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
           <folding>
             <marker date="1550287986249" expanded="false" signature="6:92" ph="..." />
             <marker date="1550287986249" expanded="true" signature="131:2688" ph="{...}" />
@@ -1027,6 +1018,30 @@
             <marker date="1550287986249" expanded="true" signature="1985:2676" ph="{...}" />
             <marker date="1550287986249" expanded="true" signature="2037:2537" ph="{...}" />
             <marker date="1550287986249" expanded="true" signature="2092:2527" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="69" column="50" lean-forward="true" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+          <folding>
+            <marker date="1550284962984" expanded="false" signature="6:100" ph="..." />
+            <marker date="1550284962984" expanded="true" signature="148:2648" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="532:676" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="706:794" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="822:911" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="943:1029" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="1063:1108" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="1138:1184" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="1210:1699" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="1527:1693" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="1726:1916" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="1946:2027" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="2063:2459" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="2146:2338" ph="{...}" />
+            <marker date="1550284962984" expanded="true" signature="2491:2646" ph="{...}" />
           </folding>
         </state>
       </provider>

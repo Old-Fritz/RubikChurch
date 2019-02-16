@@ -10,6 +10,8 @@ public class BLSave : MonoBehaviour
     private void Start()
     {
         choises = new List<bool>(10);
+        for(int i = 0;i<10;i++)
+            choises.Add(false);
         clear();
     }
 
