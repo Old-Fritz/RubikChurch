@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Spawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Spawn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene1/SceneCur.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene1/SceneCur.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene2/HiddenDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene2/HiddenDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene2/SceneCur.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene2/SceneCur.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene2.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Spawn.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Spawn.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/Spawn.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -59,6 +54,21 @@
                 <marker date="1550319909845" expanded="true" signature="607:1042" ph="{...}" />
                 <marker date="1550319909845" expanded="true" signature="1070:1130" ph="{...}" />
                 <marker date="1550319909845" expanded="true" signature="1181:1238" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneCur.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/SceneCur.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1550318671450" expanded="false" signature="6:140" ph="..." />
+                <marker date="1550318671450" expanded="true" signature="179:426" ph="{...}" />
+                <marker date="1550318671450" expanded="true" signature="292:327" ph="{...}" />
+                <marker date="1550318671450" expanded="true" signature="355:424" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -297,12 +307,12 @@
       <workItem from="1550190948600" duration="3882000" />
       <workItem from="1550228154164" duration="11963000" />
       <workItem from="1550265681127" duration="24456000" />
-      <workItem from="1550312602110" duration="3278000" />
+      <workItem from="1550312602110" duration="3923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86838000" />
+    <option name="totallyTimeSpent" value="87483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,7 +324,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -682,19 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/SceneCur.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1550318671450" expanded="true" signature="6:140" ph="..." />
-            <marker date="1550318671450" expanded="true" signature="179:426" ph="{...}" />
-            <marker date="1550318671450" expanded="true" signature="292:327" ph="{...}" />
-            <marker date="1550318671450" expanded="true" signature="355:424" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Clicker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -806,6 +803,19 @@
             <marker date="1550319914708" expanded="true" signature="73:477" ph="{...}" />
             <marker date="1550319914708" expanded="true" signature="114:475" ph="{...}" />
             <marker date="1550319914708" expanded="true" signature="165:469" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/SceneCur.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1550318671450" expanded="false" signature="6:140" ph="..." />
+            <marker date="1550318671450" expanded="true" signature="179:426" ph="{...}" />
+            <marker date="1550318671450" expanded="true" signature="292:327" ph="{...}" />
+            <marker date="1550318671450" expanded="true" signature="355:424" ph="{...}" />
           </folding>
         </state>
       </provider>
