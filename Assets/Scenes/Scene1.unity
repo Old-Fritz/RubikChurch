@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4500115, g: 0.5000663, b: 0.5755117, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14193,8 +14193,8 @@ MonoBehaviour:
     \u041B\u041A\u041C \u0435\u0449\u0435 \u0440\u0430\u0437. \u0427\u0442\u043E\u0431\u044B
     \u0431\u0440\u043E\u0441\u0438\u0442\u044C \u043D\u0430\u0436\u043C\u0438\u0442\u0435
     \u041F\u041A\u041C."
-  spawn: {fileID: 0}
-  newSpawn: {fileID: 0}
+  spawn: {fileID: 1926971160}
+  newSpawn: {fileID: 552454742}
 --- !u!1 &372579471
 GameObject:
   m_ObjectHideFlags: 0
@@ -59844,8 +59844,8 @@ MonoBehaviour:
   onClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1527200220}
-        m_MethodName: onClick
+      - m_Target: {fileID: 369357953}
+        m_MethodName: changeSpawn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -59855,8 +59855,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 369357953}
-        m_MethodName: changeSpawn
+      - m_Target: {fileID: 1527200220}
+        m_MethodName: onClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

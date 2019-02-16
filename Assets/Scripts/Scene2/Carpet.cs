@@ -34,8 +34,7 @@ public class Carpet : MonoBehaviour
                 select.setDesc("");
             
             // set target pos
-            float length = transform.localScale.z * 0.8f;
-            targetPos = transform.position - new Vector3(0, 0, length);
+            targetPos = transform.position - new Vector3(0, 0, 1);
         }
     }
 }
