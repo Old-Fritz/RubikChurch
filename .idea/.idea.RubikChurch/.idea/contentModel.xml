@@ -88,6 +88,11 @@
             <e p="TriggerBox.cs" t="Include" />
             <e p="TriggerCube.cs" t="Include" />
           </e>
+          <e p="Scene3" t="Include">
+            <e p="Carpet.cs" t="Include" />
+            <e p="OpeningDoor.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

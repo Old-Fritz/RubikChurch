@@ -28,9 +28,9 @@ namespace Common.Managers
                     playerMove.moveAccepted = true;
                 
                 // go to start scene
-                Scenes.loadScene(1);
-                Scenes.goToScene(1);
-                Scenes.loadScene(2);
+                Scenes.loadScene(3);
+                Scenes.goToScene(3);
+                //Scenes.loadScene(2);
                 onStart = false;
             }
         }
