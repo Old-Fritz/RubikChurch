@@ -22,9 +22,9 @@ public class GameManager : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             // go to start scene
-            Scenes.loadScene(1);
-            Scenes.goToScene(1);
-            Scenes.loadScene(2);
+            Scenes.loadScene(0);
+            Scenes.goToScene(0);
+            //Scenes.loadScene(2);
             onStart = false;
         }
     }

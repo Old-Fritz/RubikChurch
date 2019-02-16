@@ -9,6 +9,7 @@ public class RubikCube : MonoBehaviour
 
     [SerializeField] private GameObject face;
     [SerializeField] private float animationSpeed;
+    [SerializeField] private int generateCount = 0;
 
     private Quaternion faceTarget;
     private bool isRotation;
@@ -17,8 +18,7 @@ public class RubikCube : MonoBehaviour
 
     void Start()
     {
-        generate(20);
-        animatedFix();
+        generate(generateCount);
     }
     
     void Update()
@@ -32,13 +32,27 @@ public class RubikCube : MonoBehaviour
        
     }
 
+    public bool checkCorrect()
+    {
+        if (isRotation)
+            return false;
+        foreach (Transform obj in transform)
+        {
+            CubePart part = obj.gameObject.GetComponent<CubePart>();
+            if (part && !part.checkCorrect())
+                return false;
+        }
+
+        return true;
+    }
+
     public void generate(int moves)
     {
         genStr = "";
         
         for (int i = 0; i < moves; i++)
         {
-            int nextMove = Random.RandomRange(0, 9);
+            int nextMove = Random.Range(0, 9);
             switch (nextMove)
             {
                 case 0:

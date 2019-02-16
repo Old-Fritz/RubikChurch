@@ -9,7 +9,6 @@ public class Scene0 : MonoBehaviour
 
     void Start()
     {
-        // move disabled start scene1
         Move playerMove = Player.main.GetComponent<Move>();
         if (playerMove)
             playerMove.moveAccepted = false;

@@ -27,7 +27,7 @@ public class Move : MonoBehaviour
 
     void Start()
     {
-        moveAccepted = true;
+        moveAccepted = false;
     }
     
     // Update is called once per frame

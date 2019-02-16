@@ -1909,7 +1909,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8851889119061147723}
   - component: {fileID: 8885286884275819079}
-  - component: {fileID: 8749968506203099236}
   m_Layer: 0
   m_Name: CubePart1
   m_TagString: CubePart
@@ -1946,19 +1945,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 402b5b388c1f04748a52351b38726354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &8749968506203099236
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8850197945534433753}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8850199884944372319
 GameObject:
   m_ObjectHideFlags: 0
@@ -3963,7 +3949,7 @@ Transform:
   m_GameObject: {fileID: 8850550273569661957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.644, y: 1.05, z: 1.885}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 8851889119061147723}
   - {fileID: 8852087841107788953}
@@ -4010,6 +3996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   face: {fileID: 8849787413877274415}
   animationSpeed: 180
+  generateCount: 0
 --- !u!65 &5984793685015412481
 BoxCollider:
   m_ObjectHideFlags: 0
