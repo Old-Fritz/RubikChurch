@@ -7,7 +7,7 @@ namespace Common.Properties
     {
 
         [SerializeField] private UnityEvent onClick;
-        [SerializeField] private float distance;
+        [SerializeField] private float distance = 2;
 
         public void click()
         {

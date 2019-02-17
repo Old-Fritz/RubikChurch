@@ -10,7 +10,7 @@ namespace Common.Properties
         [SerializeField] private UnityEvent onSelect;
         [SerializeField] private UnityEvent onUnSelect;
         [SerializeField] private String descriptionText;
-        [SerializeField] private float distance;
+        [SerializeField] private float distance = 2;
 
         private bool selected = false;
 

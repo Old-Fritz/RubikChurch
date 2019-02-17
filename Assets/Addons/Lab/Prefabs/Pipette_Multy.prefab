@@ -90,6 +90,8 @@ GameObject:
   - component: {fileID: 23750845416038232}
   - component: {fileID: 2393292716533647}
   - component: {fileID: 288887211261141323}
+  - component: {fileID: 6713795126082254340}
+  - component: {fileID: 370578592923611890}
   m_Layer: 0
   m_Name: Pipette_Multy
   m_TagString: Untagged
@@ -184,6 +186,44 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 807ac9d48801b463ca33b8555c895515, type: 3}
+--- !u!114 &6713795126082254340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645275079282386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75252eb5618e6f4468cb87e80938adf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDistance: 2
+  workDistance: 1
+--- !u!114 &370578592923611890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645275079282386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onSelect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onUnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  descriptionText: "\u041C\u0443\u043B\u044C\u0442\u0438\u043F\u0438\u043F\u0435\u0442\u043A\u0430"
+  distance: 2

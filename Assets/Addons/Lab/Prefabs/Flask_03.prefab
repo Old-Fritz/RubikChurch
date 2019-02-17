@@ -88,8 +88,10 @@ GameObject:
   - component: {fileID: 4222951798390138}
   - component: {fileID: 33299709630673308}
   - component: {fileID: 23125056220227154}
-  - component: {fileID: 1292140876404922714}
   - component: {fileID: 3701473595579569635}
+  - component: {fileID: 2727370047243893118}
+  - component: {fileID: 7992471141792081402}
+  - component: {fileID: 1865771986954731557}
   m_Layer: 0
   m_Name: Flask_03
   m_TagString: Untagged
@@ -157,19 +159,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1292140876404922714
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842033224559982}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.13005672, y: 0.47850493, z: 0.13005614}
-  m_Center: {x: -0.00000055134296, y: 0.23925246, z: -0.0000048838556}
 --- !u!54 &3701473595579569635
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -186,3 +175,55 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &2727370047243893118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842033224559982}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 217c04de4fe6a3345a209b712c4e99f6, type: 3}
+--- !u!114 &7992471141792081402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842033224559982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75252eb5618e6f4468cb87e80938adf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDistance: 2
+  workDistance: 1
+--- !u!114 &1865771986954731557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842033224559982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onSelect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onUnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  descriptionText: "\u041A\u043E\u043B\u0431\u0430"
+  distance: 2

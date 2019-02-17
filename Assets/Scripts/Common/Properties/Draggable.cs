@@ -4,8 +4,8 @@ namespace Common.Properties
 {
     public class Draggable : MonoBehaviour
     {
-        [SerializeField] private float startDistance;
-        [SerializeField] private float workDistance;
+        [SerializeField] private float startDistance = 2;
+        [SerializeField] private float workDistance = 1;
 
         private Transform oldParent;
     
