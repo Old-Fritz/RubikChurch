@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_03.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_04.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_05.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_05.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_06.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Flask_06.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Pipette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Pipette.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Pipette_Multy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/Lab/Prefabs/Pipette_Multy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Clickable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Clickable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Draggable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Draggable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Selectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Selectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
