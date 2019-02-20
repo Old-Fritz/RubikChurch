@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Scene3
+namespace Common.Properties
 {
-    public class Carpet : MonoBehaviour
+    public class ClickMovable : MonoBehaviour
     {
+    
         [SerializeField] private float speed = 1;
         [SerializeField] private Vector3 direction;
         

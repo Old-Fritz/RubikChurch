@@ -45,11 +45,6 @@ namespace Scene3
             
                 target = transform.localRotation*Quaternion.AngleAxis(angle, Vector3.forward);
                 moving = true;
-                
-                // disable collider on moving
-                Collider collider = GetComponent<Collider>();
-                if (collider)
-                    collider.enabled = false;
             }
         }
     }

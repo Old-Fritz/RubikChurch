@@ -57,6 +57,7 @@
             </e>
             <e p="Properties" t="Include">
               <e p="Clickable.cs" t="Include" />
+              <e p="clickMovable.cs" t="Include" />
               <e p="Draggable.cs" t="Include" />
               <e p="Note.cs" t="Include" />
               <e p="Selectable.cs" t="Include" />
@@ -89,7 +90,8 @@
             <e p="TriggerCube.cs" t="Include" />
           </e>
           <e p="Scene3" t="Include">
-            <e p="Carpet.cs" t="Include" />
+            <e p="Door.cs" t="Include" />
+            <e p="Generator.cs" t="Include" />
             <e p="OpeningDoor.cs" t="Include" />
             <e p="SceneCur.cs" t="Include" />
           </e>

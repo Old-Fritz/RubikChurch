@@ -29,7 +29,7 @@ namespace Common.Managers
             description.text = text;
         }
 
-        public void showSubtitles(String text, float time)
+        public void showSubtitles(String text, float time = 3.0f)
         {
             subtitles.text = text;
             StartCoroutine(clearSubtitles(time));

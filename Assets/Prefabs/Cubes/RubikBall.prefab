@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4021411471261830509}
   - component: {fileID: 2084672410504449165}
+  - component: {fileID: 8550672067540957342}
+  - component: {fileID: 2347589649994347534}
+  - component: {fileID: 4156739920351948282}
   m_Layer: 0
   m_Name: RubikBall
   m_TagString: Untagged
@@ -48,6 +51,57 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8550672067540957342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827031842469798058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75252eb5618e6f4468cb87e80938adf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDistance: 3
+  workDistance: 1
+--- !u!114 &2347589649994347534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827031842469798058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onSelect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onUnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  descriptionText: "\u0428\u0430\u0440\u0438\u043A \u0420\u0443\u0431\u0438\u043A\u0430"
+  distance: 3
+--- !u!135 &4156739920351948282
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827031842469798058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 12.6
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7029987317577680694
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +113,6 @@ GameObject:
   - component: {fileID: 5405384067197655810}
   - component: {fileID: 1336668081791629401}
   - component: {fileID: 26230342200294425}
-  - component: {fileID: 122475362628740846}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -126,16 +179,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &122475362628740846
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7029987317577680694}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
