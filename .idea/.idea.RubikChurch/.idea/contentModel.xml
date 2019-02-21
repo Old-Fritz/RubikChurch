@@ -61,6 +61,7 @@
             </e>
             <e p="Properties" t="Include">
               <e p="Clickable.cs" t="Include" />
+              <e p="ClickActivate.cs" t="Include" />
               <e p="clickMovable.cs" t="Include" />
               <e p="Draggable.cs" t="Include" />
               <e p="Note.cs" t="Include" />

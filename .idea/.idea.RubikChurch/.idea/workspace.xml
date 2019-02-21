@@ -4,40 +4,12 @@
     <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Frame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Frame.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candle_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candle_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candle_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candle_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candle_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candle_03.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candle_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candle_04.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candleholder_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Lightsources/dfk_candleholder_04.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube4.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube4.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube5.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube6.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk4.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk5.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk5.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk6.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Rubik.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Rubik.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/RubikCubeMain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/RubikCubeMain.jpg.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,24 +77,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClickMovable.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/ClickMovable.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <marker date="1550675676242" expanded="true" signature="47:922" ph="{...}" />
-                <marker date="1550675676242" expanded="true" signature="95:920" ph="{...}" />
-                <marker date="1550675676242" expanded="true" signature="311:665" ph="{...}" />
-                <marker date="1550675676242" expanded="true" signature="355:655" ph="{...}" />
-                <marker date="1550675676242" expanded="true" signature="535:641" ph="{...}" />
-                <marker date="1550675676242" expanded="true" signature="693:914" ph="{...}" />
-                <marker date="1550675676242" expanded="true" signature="738:904" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Generator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -160,19 +114,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding>
-                <marker date="1550777813976" expanded="false" signature="6:44" ph="..." />
-                <marker date="1550777813976" expanded="true" signature="71:877" ph="{...}" />
-                <marker date="1550777813976" expanded="true" signature="118:875" ph="{...}" />
-                <marker date="1550777813976" expanded="true" signature="187:237" ph="{...}" />
-                <marker date="1550777813976" expanded="true" signature="260:341" ph="{...}" />
-                <marker date="1550777813976" expanded="true" signature="383:869" ph="{...}" />
-                <marker date="1550777813976" expanded="true" signature="436:859" ph="{...}" />
+                <marker date="1550779366585" expanded="false" signature="6:44" ph="..." />
+                <marker date="1550779366585" expanded="true" signature="71:877" ph="{...}" />
+                <marker date="1550779366585" expanded="true" signature="118:875" ph="{...}" />
+                <marker date="1550779366585" expanded="true" signature="187:237" ph="{...}" />
+                <marker date="1550779366585" expanded="true" signature="260:341" ph="{...}" />
+                <marker date="1550779366585" expanded="true" signature="383:869" ph="{...}" />
+                <marker date="1550779366585" expanded="true" signature="436:859" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClickActivate.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/ClickActivate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding>
+                <marker date="1550785281240" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550785281240" expanded="true" signature="122:257" ph="{...}" />
+                <marker date="1550785281240" expanded="true" signature="196:255" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -283,6 +251,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/OutDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/TriggerCube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Door.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/ClickActivate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/NotesWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/SceneCur.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -310,7 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Clickable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Clicker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Selectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene0/Scene1.cs" />
@@ -361,6 +329,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Clicker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Properties/ClickActivate.cs" />
       </list>
     </option>
   </component>
@@ -373,7 +342,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="854" />
     <option name="width" value="1073" />
     <option name="height" value="1047" />
@@ -480,12 +449,12 @@
       <workItem from="1550669950450" duration="5079000" />
       <workItem from="1550694503717" duration="2440000" />
       <workItem from="1550697029028" duration="6009000" />
-      <workItem from="1550762558059" duration="2717000" />
+      <workItem from="1550762558059" duration="4203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121854000" />
+    <option name="totallyTimeSpent" value="123340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,7 +466,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -603,7 +572,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Clickable.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC10DD4A-D9F3-4AA9-8E69-1E49A48C7111/f9/69fbb1fe/StackTraceUtility.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -996,13 +964,25 @@
         <state relative-caret-position="450">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding>
-            <marker date="1550777813976" expanded="false" signature="6:44" ph="..." />
-            <marker date="1550777813976" expanded="true" signature="71:877" ph="{...}" />
-            <marker date="1550777813976" expanded="true" signature="118:875" ph="{...}" />
-            <marker date="1550777813976" expanded="true" signature="187:237" ph="{...}" />
-            <marker date="1550777813976" expanded="true" signature="260:341" ph="{...}" />
-            <marker date="1550777813976" expanded="true" signature="383:869" ph="{...}" />
-            <marker date="1550777813976" expanded="true" signature="436:859" ph="{...}" />
+            <marker date="1550779366585" expanded="false" signature="6:44" ph="..." />
+            <marker date="1550779366585" expanded="true" signature="71:877" ph="{...}" />
+            <marker date="1550779366585" expanded="true" signature="118:875" ph="{...}" />
+            <marker date="1550779366585" expanded="true" signature="187:237" ph="{...}" />
+            <marker date="1550779366585" expanded="true" signature="260:341" ph="{...}" />
+            <marker date="1550779366585" expanded="true" signature="383:869" ph="{...}" />
+            <marker date="1550779366585" expanded="true" signature="436:859" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/ClickActivate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <marker date="1550785281240" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550785281240" expanded="true" signature="122:257" ph="{...}" />
+            <marker date="1550785281240" expanded="true" signature="196:255" ph="{...}" />
           </folding>
         </state>
       </provider>
