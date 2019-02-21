@@ -40,6 +40,9 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
+        <e p="Materials" t="Include">
+          <e p="3DText.shader" t="Include" />
+        </e>
         <e p="scripts" t="Include">
           <e p="Common" t="Include">
             <e p="Managers" t="Include">

@@ -5,10 +5,39 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Frame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Frame.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Clicker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Clicker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Clickable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Clickable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube1.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube3.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube4.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube5.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Cubes/Cube6.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk1.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk3.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk4.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk5.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Monks/Monk6.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Rubik.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/Rubik.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/RubikCubeMain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Scene3/RubikCubeMain.jpg.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +51,7 @@
       <file leaf-file-name="Clickable.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/Clickable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="120">
               <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
                 <marker date="1550695642015" expanded="false" signature="6:58" ph="..." />
@@ -37,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Door.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Door.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Door.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="510">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <marker date="1550676003745" expanded="false" signature="6:140" ph="..." />
@@ -97,7 +126,7 @@
       <file leaf-file-name="Generator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="480">
               <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
               <folding>
                 <marker date="1550703345953" expanded="false" signature="6:78" ph="..." />
@@ -131,10 +160,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <folding>
+                <marker date="1550777813976" expanded="false" signature="6:44" ph="..." />
+                <marker date="1550777813976" expanded="true" signature="71:877" ph="{...}" />
+                <marker date="1550777813976" expanded="true" signature="118:875" ph="{...}" />
+                <marker date="1550777813976" expanded="true" signature="187:237" ph="{...}" />
+                <marker date="1550777813976" expanded="true" signature="260:341" ph="{...}" />
+                <marker date="1550777813976" expanded="true" signature="383:869" ph="{...}" />
+                <marker date="1550777813976" expanded="true" signature="436:859" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GoldenCube.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/GoldenCube.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="285">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <marker date="1550701439772" expanded="false" signature="6:106" ph="..." />
@@ -155,7 +202,7 @@
       <file leaf-file-name="Clicker.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Clicker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="915">
               <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
               <folding>
                 <marker date="1550702967672" expanded="false" signature="6:66" ph="..." />
@@ -185,25 +232,6 @@
                 <marker date="1550702967672" expanded="true" signature="4538:4933" ph="{...}" />
                 <marker date="1550702967672" expanded="true" signature="4573:4923" ph="{...}" />
                 <marker date="1550702967672" expanded="true" signature="4975:5233" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interface.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/Interface.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-              <folding>
-                <marker date="1550523971851" expanded="false" signature="6:114" ph="..." />
-                <marker date="1550523971851" expanded="true" signature="141:1290" ph="{...}" />
-                <marker date="1550523971851" expanded="true" signature="186:1288" ph="{...}" />
-                <marker date="1550523971851" expanded="true" signature="556:601" ph="{...}" />
-                <marker date="1550523971851" expanded="true" signature="657:714" ph="{...}" />
-                <marker date="1550523971851" expanded="true" signature="781:886" ph="{...}" />
-                <marker date="1550523971851" expanded="true" signature="940:1045" ph="{...}" />
-                <marker date="1550523971851" expanded="true" signature="1097:1266" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -258,7 +286,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/NotesWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/SceneCur.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/OpeningDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/Scenes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/Interface.cs" root0="FORCE_HIGHLIGHTING" />
@@ -318,7 +346,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene3/Carpet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Draggable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Properties/Selectable.cs" />
@@ -333,6 +360,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/GoldenCube.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Clicker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -356,7 +384,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -373,10 +400,23 @@
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="RubikChurch" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
@@ -385,6 +425,7 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -408,9 +449,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="6548">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="6548" />
+      <option name="pid" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -439,11 +480,12 @@
       <workItem from="1550669950450" duration="5079000" />
       <workItem from="1550694503717" duration="2440000" />
       <workItem from="1550697029028" duration="6009000" />
+      <workItem from="1550762558059" duration="2717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119137000" />
+    <option name="totallyTimeSpent" value="121854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,24 +497,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31302083" side_tool="true" visible="true" weight="0.3995749" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31302083" side_tool="true" weight="0.3995749" />
       <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16197917" />
-      <window_info anchor="bottom" id="Unity" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16197917" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.6869792" visible="true" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.6869792" weight="0.3995749" />
       <window_info anchor="bottom" id="NuGet" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -731,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/Carpet.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -850,7 +885,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Properties/Clickable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="120">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <marker date="1550695642015" expanded="false" signature="6:58" ph="..." />
@@ -866,7 +901,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Clicker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="915">
           <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
           <folding>
             <marker date="1550702967672" expanded="false" signature="6:66" ph="..." />
@@ -902,7 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/GoldenCube.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="285">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <marker date="1550701439772" expanded="false" signature="6:106" ph="..." />
@@ -921,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Generator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="480">
           <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
           <folding>
             <marker date="1550703345953" expanded="false" signature="6:78" ph="..." />
@@ -941,7 +976,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Door.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="510">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <marker date="1550676003745" expanded="false" signature="6:140" ph="..." />
@@ -952,6 +987,22 @@
             <marker date="1550676003745" expanded="true" signature="716:898" ph="{...}" />
             <marker date="1550676003745" expanded="true" signature="927:1119" ph="{...}" />
             <marker date="1550676003745" expanded="true" signature="1021:1109" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <marker date="1550777813976" expanded="false" signature="6:44" ph="..." />
+            <marker date="1550777813976" expanded="true" signature="71:877" ph="{...}" />
+            <marker date="1550777813976" expanded="true" signature="118:875" ph="{...}" />
+            <marker date="1550777813976" expanded="true" signature="187:237" ph="{...}" />
+            <marker date="1550777813976" expanded="true" signature="260:341" ph="{...}" />
+            <marker date="1550777813976" expanded="true" signature="383:869" ph="{...}" />
+            <marker date="1550777813976" expanded="true" signature="436:859" ph="{...}" />
           </folding>
         </state>
       </provider>
