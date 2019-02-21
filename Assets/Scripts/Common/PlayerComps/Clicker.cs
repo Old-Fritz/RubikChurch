@@ -13,6 +13,7 @@ namespace Common.PlayerComps
 
         private GameObject selected  = null;
         private Draggable dragged = null;
+        private GoldenCube goldenCube;
     
         // Update is called once per frame
         void Update ()
@@ -39,13 +40,31 @@ namespace Common.PlayerComps
                 click(obj, dist);
                 checkDrag(obj, dist);
             }
-
+            if (Input.GetKeyUp(KeyCode.F))
+            {
+                if (goldenCube)
+                    goldenCube.respect(obj, dist);
+            }
+            if (Input.GetKeyUp(KeyCode.P))
+            {
+                if (goldenCube)
+                    goldenCube.pray(obj, dist);
+            }
+            
             if (Input.GetMouseButtonUp(1) && obj)
             {
                 pushDrag();
             }
         }
 
+        public void setGoldenCube(GoldenCube cube)
+        {
+            // set cube in front of player
+            goldenCube = cube;
+            cube.gameObject.transform.parent = camera.transform;
+            cube.gameObject.transform.localPosition = Vector3.forward;
+        }
+        
         private void reSelect(GameObject newSelected, float dist)
         {
         
@@ -149,5 +168,7 @@ namespace Common.PlayerComps
 
             return null;
         }
+
+        
     }
 }

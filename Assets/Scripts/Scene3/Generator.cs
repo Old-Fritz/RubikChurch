@@ -21,14 +21,20 @@ namespace Scene3
             if (!drilled)
             {
                 if (scene.drillUp)
+                {
                     drilled = true;
+                    Interface.main.showSubtitles(afterDrillUpSubs);
+                }
                 else
                     Interface.main.showSubtitles(startSubs);
             }
             else if (!fueled)
             {
                 if (scene.fuelUp)
+                {
                     fueled = true;
+                    Interface.main.showSubtitles(afterFuelUpSubs);
+                }
                 else
                     Interface.main.showSubtitles(afterDrillUpSubs);
             }

@@ -8,7 +8,7 @@ namespace Common.Properties
     {
         public enum ClickType
         {
-            Base, Pray, Resepect
+            Base, Pray, Respect
         }
         
         [SerializeField] private UnityEvent onClick;
