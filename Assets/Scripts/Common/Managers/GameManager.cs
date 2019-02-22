@@ -10,6 +10,7 @@ namespace Common.Managers
         void Start()
         {   
             Scenes.Init();
+            Random.InitState((int)System.DateTime.Now.Ticks);
         }
 
         void Update()
@@ -28,8 +29,8 @@ namespace Common.Managers
                     playerMove.moveAccepted = true;
                 
                 // go to start scene
-                Scenes.loadScene(5);
-                Scenes.goToScene(5);
+                Scenes.loadScene(6);
+                Scenes.goToScene(6);
                 //Scenes.loadScene(2);
                 onStart = false;
             }

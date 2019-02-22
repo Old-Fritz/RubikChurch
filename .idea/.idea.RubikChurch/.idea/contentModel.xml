@@ -112,6 +112,9 @@
             <e p="Death.cs" t="Include" />
             <e p="Skeleton.cs" t="Include" />
           </e>
+          <e p="Scene6" t="Include">
+            <e p="BorderCube.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

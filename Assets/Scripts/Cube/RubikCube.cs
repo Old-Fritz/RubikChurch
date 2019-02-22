@@ -20,7 +20,8 @@ namespace Cube
 
         void Start()
         {
-            generate(generateCount);
+            if(generateCount>0)
+                generate(generateCount);
         }
     
         void Update()
