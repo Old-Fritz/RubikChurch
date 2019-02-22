@@ -3921,6 +3921,7 @@ GameObject:
   - component: {fileID: 1029290250185300043}
   - component: {fileID: 7645922612077538456}
   - component: {fileID: 1788964663036073016}
+  - component: {fileID: 3001829014604501565}
   m_Layer: 0
   m_Name: RubikCubeLight
   m_TagString: Untagged
@@ -4053,6 +4054,36 @@ MonoBehaviour:
   descriptionText: "\u041A\u0443\u0431\u0438\u043A \u0440\u0443\u0431\u0438\u043A\u0430
     3*3"
   distance: 2
+--- !u!114 &3001829014604501565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8850550273569661957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86c661d389c5c94c821d638e9d46c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8882120140039371075}
+        m_MethodName: animatedFix
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  distance: 2
+  type: 1
 --- !u!1 &8850575144035802469
 GameObject:
   m_ObjectHideFlags: 0
