@@ -45,7 +45,5 @@ namespace Common.PlayerComps
             Scenes.goToScene(9);
             Scenes.unLoadScene(Scenes.currentScene);
         }
-    }
-    
-    
+    }   
 }

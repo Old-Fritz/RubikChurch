@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Torch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Torch.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/Scenes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/Scenes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/BLSave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Save.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/BLSave.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Save.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene0/MonitorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Finaling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Finaling.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,17 +104,17 @@
       <file leaf-file-name="Finaling.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Finaling.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="435">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
-                <marker date="1550849795122" expanded="true" signature="6:63" ph="..." />
-                <marker date="1550849795122" expanded="true" signature="93:1202" ph="{...}" />
-                <marker date="1550849795122" expanded="true" signature="137:1190" ph="{...}" />
-                <marker date="1550849795122" expanded="true" signature="167:213" ph="{...}" />
-                <marker date="1550849795122" expanded="true" signature="360:648" ph="{...}" />
-                <marker date="1550849795122" expanded="true" signature="428:638" ph="{...}" />
-                <marker date="1550849795122" expanded="true" signature="706:975" ph="{...}" />
-                <marker date="1550849795122" expanded="true" signature="1017:1184" ph="{...}" />
+                <marker date="1550866810240" expanded="true" signature="6:63" ph="..." />
+                <marker date="1550866810240" expanded="true" signature="93:1195" ph="{...}" />
+                <marker date="1550866810240" expanded="true" signature="137:1190" ph="{...}" />
+                <marker date="1550866810240" expanded="true" signature="167:213" ph="{...}" />
+                <marker date="1550866810240" expanded="true" signature="360:648" ph="{...}" />
+                <marker date="1550866810240" expanded="true" signature="428:638" ph="{...}" />
+                <marker date="1550866810240" expanded="true" signature="706:975" ph="{...}" />
+                <marker date="1550866810240" expanded="true" signature="1017:1184" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -131,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene5/Death.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
                 <marker date="1550849064282" expanded="true" signature="6:141" ph="..." />
                 <marker date="1550849064282" expanded="true" signature="177:977" ph="{...}" />
@@ -469,12 +462,12 @@
       <workItem from="1550694503717" duration="2440000" />
       <workItem from="1550697029028" duration="6009000" />
       <workItem from="1550762558059" duration="6931000" />
-      <workItem from="1550833190260" duration="9295000" />
+      <workItem from="1550833190260" duration="10898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135363000" />
+    <option name="totallyTimeSpent" value="136966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,7 +479,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -497,13 +490,13 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.6869792" visible="true" weight="0.3995749" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.6869792" visible="true" weight="0.3995749" />
       <window_info anchor="bottom" id="NuGet" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1104,7 +1097,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene5/Death.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
             <marker date="1550849064282" expanded="true" signature="6:141" ph="..." />
             <marker date="1550849064282" expanded="true" signature="177:977" ph="{...}" />
@@ -1119,17 +1112,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Finaling.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="435">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
-            <marker date="1550849795122" expanded="true" signature="6:63" ph="..." />
-            <marker date="1550849795122" expanded="true" signature="93:1202" ph="{...}" />
-            <marker date="1550849795122" expanded="true" signature="137:1190" ph="{...}" />
-            <marker date="1550849795122" expanded="true" signature="167:213" ph="{...}" />
-            <marker date="1550849795122" expanded="true" signature="360:648" ph="{...}" />
-            <marker date="1550849795122" expanded="true" signature="428:638" ph="{...}" />
-            <marker date="1550849795122" expanded="true" signature="706:975" ph="{...}" />
-            <marker date="1550849795122" expanded="true" signature="1017:1184" ph="{...}" />
+            <marker date="1550866810240" expanded="true" signature="6:63" ph="..." />
+            <marker date="1550866810240" expanded="true" signature="93:1195" ph="{...}" />
+            <marker date="1550866810240" expanded="true" signature="137:1190" ph="{...}" />
+            <marker date="1550866810240" expanded="true" signature="167:213" ph="{...}" />
+            <marker date="1550866810240" expanded="true" signature="360:648" ph="{...}" />
+            <marker date="1550866810240" expanded="true" signature="428:638" ph="{...}" />
+            <marker date="1550866810240" expanded="true" signature="706:975" ph="{...}" />
+            <marker date="1550866810240" expanded="true" signature="1017:1184" ph="{...}" />
           </folding>
         </state>
       </provider>
