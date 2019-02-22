@@ -3,10 +3,11 @@ using UnityEngine;
 
 namespace Common.PlayerComps
 {
-    public class BLSave : MonoBehaviour
+    public class Save : MonoBehaviour
     {
         private List<bool> choises;
         private int choise = 0;
+        public Finaling.End currentEnd { get; set; }
         
         private void Start()
         {

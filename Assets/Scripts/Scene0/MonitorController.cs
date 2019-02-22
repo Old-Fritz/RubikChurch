@@ -59,7 +59,7 @@ namespace Scene0
             blGame.SetActive(true);
         
             // clear save
-            BLSave save = getBLSave();
+            Save save = getBLSave();
             if(save)
                 save.clear();
         
@@ -78,7 +78,7 @@ namespace Scene0
             blGame.SetActive(false);
         
             // clear save
-            BLSave save = getBLSave();
+            Save save = getBLSave();
             if(save)
                 save.clear();
         }
@@ -100,16 +100,16 @@ namespace Scene0
             }
         
             // add save
-            BLSave save = getBLSave();
+            Save save = getBLSave();
             if(save)
                 save.makeChoise(ind);
         }
 
-        private BLSave getBLSave()
+        private Save getBLSave()
         {
             GameObject player = Player.main.gameObject;
             if (player)
-                return player.GetComponent<BLSave>();
+                return player.GetComponent<Save>();
             return null;
         }
     }

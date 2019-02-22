@@ -10,10 +10,11 @@ namespace Common.Managers
     {
         private static List<Scene> scenes;
         private static int goToSceneNumber = -1;
-        private static int currentScene = -1;
+        public static int currentScene { get; protected set; }
 
         public static void Init()
         {
+            currentScene = -1;
             scenes = new List<Scene>();
             SceneManager.sceneLoaded += onSceneLoaded;
             SceneManager.sceneUnloaded += onSceneUnloaded;

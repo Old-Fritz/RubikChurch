@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.05
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.088960476, g: 0.10326352, b: 0.12576678, a: 0.05}
+  m_IndirectSpecularColor: {r: 0.06787654, g: 0.07006379, b: 0.06374573, a: 0.05}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1475,6 +1475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 443943426}
+  - component: {fileID: 443943427}
   m_Layer: 0
   m_Name: Scene
   m_TagString: Untagged
@@ -1505,6 +1506,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &443943427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443943425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5767ff280b9bd84489fa24acfddf13ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathTime: 20
+  deathHint: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \"\u041F\u0440\u043E\u0431\u0435\u043B\",
+    \u0447\u0442\u043E\u0431\u044B \u0441\u043C\u0438\u0440\u0438\u0442\u044C\u0441\u044F
+    \u0438 \u0443\u043C\u0435\u0440\u0435\u0442\u044C"
 --- !u!1001 &473003987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1582,6 +1599,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5569357180586878718, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: notes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569357180586878718, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: notes.Array.data[0]
+      value: "\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 443943427}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: waitDeath
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87b73a14ddbbcf3479e12ee8d8005dbc, type: 3}
 --- !u!4 &473003988 stripped
@@ -1590,6 +1627,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 473003987}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &473003989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8550202865701915588, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+    type: 3}
+  m_PrefabInstance: {fileID: 473003987}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &473003991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473003989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86c661d389c5c94c821d638e9d46c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  distance: 2
+  type: 0
 --- !u!1001 &576762852
 PrefabInstance:
   m_ObjectHideFlags: 0
