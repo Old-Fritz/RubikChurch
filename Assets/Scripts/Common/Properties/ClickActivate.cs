@@ -1,13 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ClickActivate : MonoBehaviour
+namespace Common.Properties
 {
-    [SerializeField] private GameObject obj;
-
-    public void onClick()
+    public class ClickActivate : MonoBehaviour
     {
-        obj.SetActive(!obj.activeInHierarchy);
+        [SerializeField] private GameObject obj;
+
+        public void onClick()
+        {
+            obj.SetActive(!obj.activeInHierarchy);
+        }
     }
 }

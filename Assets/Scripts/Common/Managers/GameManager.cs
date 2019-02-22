@@ -28,8 +28,8 @@ namespace Common.Managers
                     playerMove.moveAccepted = true;
                 
                 // go to start scene
-                Scenes.loadScene(3);
-                Scenes.goToScene(3);
+                Scenes.loadScene(4);
+                Scenes.goToScene(4);
                 //Scenes.loadScene(2);
                 onStart = false;
             }
