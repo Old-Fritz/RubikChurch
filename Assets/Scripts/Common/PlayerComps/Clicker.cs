@@ -114,7 +114,7 @@ namespace Common.PlayerComps
         private void click(GameObject clicked, float dist)
         {
             Clickable clickable = clicked.GetComponent<Clickable>();
-            if(clickable && clickable.getDist()>=dist)
+            if(clickable && clickable.getClickType() == Clickable.ClickType.Base && clickable.getDist()>=dist)
                 clickable.click();
         }
 

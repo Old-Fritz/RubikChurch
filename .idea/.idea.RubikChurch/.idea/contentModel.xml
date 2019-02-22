@@ -73,6 +73,7 @@
           <e p="Cube" t="Include">
             <e p="CubePart.cs" t="Include" />
             <e p="RubikCube.cs" t="Include" />
+            <e p="RubikLight.cs" t="Include" />
           </e>
           <e p="Scene0" t="Include">
             <e p="HomeCube.cs" t="Include" />

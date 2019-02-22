@@ -3919,6 +3919,7 @@ GameObject:
   - component: {fileID: 8882120140039371075}
   - component: {fileID: 5984793685015412481}
   - component: {fileID: 1029290250185300043}
+  - component: {fileID: 5324729577658246891}
   - component: {fileID: 7645922612077538456}
   - component: {fileID: 1788964663036073016}
   - component: {fileID: 3001829014604501565}
@@ -4015,6 +4016,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5324729577658246891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8850550273569661957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21070219aa2c19a42a299d9c0ad582c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackCube: {fileID: 3961788921627246643}
+  cube: {fileID: 8882120140039371075}
 --- !u!114 &7645922612077538456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4069,8 +4084,8 @@ MonoBehaviour:
   onClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8882120140039371075}
-        m_MethodName: animatedFix
+      - m_Target: {fileID: 5324729577658246891}
+        m_MethodName: onClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
