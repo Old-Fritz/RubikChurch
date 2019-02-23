@@ -10,8 +10,6 @@ public class BorderCube : MonoBehaviour
     [SerializeField] private float maxScale = 15;
     [SerializeField] private float scaleSpeed = 1;
     [SerializeField] private float rotateSpeed = 30;
-    [SerializeField] private float solveTime = 2;
-    [SerializeField] private int generateCount = 1;
 
     private Vector3 targetScale;
     private Quaternion targetRotation;
@@ -21,7 +19,6 @@ public class BorderCube : MonoBehaviour
     {
         generateRotationTarget();
         generateScaleTarget();
-        StartCoroutine(solveCube());
     }
     
     void Update()
@@ -52,29 +49,5 @@ public class BorderCube : MonoBehaviour
         angles.z = Random.Range(-360, 360);
         
         targetRotation = Quaternion.Euler(angles);
-    }
-
-    private IEnumerator solveCube()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(solveTime);
-            // choose between generating new cube and solcing it in random
-            if (!generated && Random.Range(0, 1) == 0)
-            {
-                generated = true;
-                cube.generate(generateCount);
-            }
-            else if (!solving && generated && Random.Range(0, 1) == 0)
-            {
-                cube.animatedFix();
-                solving = true;
-            }
-            else if (cube.checkCorrect())
-            {
-                solving = false;
-                generated = false;
-            }
-        }
     }
 }

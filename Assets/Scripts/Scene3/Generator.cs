@@ -1,7 +1,6 @@
 ﻿using System;
 using Common.Managers;
 using UnityEngine;
-using UnityEngine.WSA;
 
 namespace Scene3
 {
