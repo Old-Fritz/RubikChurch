@@ -24,6 +24,241 @@
               <e p="SBS_Mana.shader" t="Include" />
             </e>
           </e>
+          <e p="More PostProcessing Effects" t="Include">
+            <e p="Editor" t="Include">
+              <e p="MorePPEffects" t="Include">
+                <e p="Anaglyph3DEditor.cs" t="Include" />
+                <e p="BlackAndBlueEditor.cs" t="Include" />
+                <e p="BlackAndGreenEditor.cs" t="Include" />
+                <e p="BlackAndRedEditor.cs" t="Include" />
+                <e p="BleachBypassEditor.cs" t="Include" />
+                <e p="CircularBlurEditor.cs" t="Include" />
+                <e p="ColoredRaysEditor.cs" t="Include" />
+                <e p="ColorizationEditor.cs" t="Include" />
+                <e p="DreamyEditor.cs" t="Include" />
+                <e p="DrunkEditor.cs" t="Include" />
+                <e p="DuoToneEditor.cs" t="Include" />
+                <e p="EmbossEditor.cs" t="Include" />
+                <e p="HeadacheEditor.cs" t="Include" />
+                <e p="LaplacianEditor.cs" t="Include" />
+                <e p="LensEditor.cs" t="Include" />
+                <e p="LowResolutionEditor.cs" t="Include" />
+                <e p="NegativeEditor.cs" t="Include" />
+                <e p="NightVisionEditor.cs" t="Include" />
+                <e p="NormalMapDistortionEditor.cs" t="Include" />
+                <e p="PosterizationEditor.cs" t="Include" />
+                <e p="RadialBlurEditor.cs" t="Include" />
+                <e p="RippleEditor.cs" t="Include" />
+                <e p="ScannerEditor.cs" t="Include" />
+                <e p="Shadows2DEditor.cs" t="Include" />
+                <e p="SobelEditor.cs" t="Include" />
+                <e p="ThermalVisionEditor.cs" t="Include" />
+                <e p="WavesEditor.cs" t="Include" />
+                <e p="WiggleEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="scripts" t="Include">
+              <e p="Anaglyph3D.cs" t="Include" />
+              <e p="BlackAndBlue.cs" t="Include" />
+              <e p="BlackAndGreen.cs" t="Include" />
+              <e p="BlackAndRed.cs" t="Include" />
+              <e p="BleachBypass.cs" t="Include" />
+              <e p="CircularBlur.cs" t="Include" />
+              <e p="ColoredRays.cs" t="Include" />
+              <e p="Colorization.cs" t="Include" />
+              <e p="Dreamy.cs" t="Include" />
+              <e p="Drunk.cs" t="Include" />
+              <e p="DuoTone.cs" t="Include" />
+              <e p="Emboss.cs" t="Include" />
+              <e p="Headache.cs" t="Include" />
+              <e p="Laplacian.cs" t="Include" />
+              <e p="Lens.cs" t="Include" />
+              <e p="LowResolution.cs" t="Include" />
+              <e p="Negative.cs" t="Include" />
+              <e p="NightVision.cs" t="Include" />
+              <e p="NormalMapDistortion.cs" t="Include" />
+              <e p="Posterization.cs" t="Include" />
+              <e p="RadialBlur.cs" t="Include" />
+              <e p="Ripple.cs" t="Include" />
+              <e p="Scanner.cs" t="Include" />
+              <e p="Shadows2D.cs" t="Include" />
+              <e p="Sobel.cs" t="Include" />
+              <e p="ThermalVision.cs" t="Include" />
+              <e p="Waves.cs" t="Include" />
+              <e p="Wiggle.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Anaglyph3D.shader" t="Include" />
+              <e p="BlackAndBlue.shader" t="Include" />
+              <e p="BlackAndGreen.shader" t="Include" />
+              <e p="BlackAndRed.shader" t="Include" />
+              <e p="BleachBypass.shader" t="Include" />
+              <e p="CircularBlur.shader" t="Include" />
+              <e p="ColoredRays.shader" t="Include" />
+              <e p="Colorization.shader" t="Include" />
+              <e p="Dreamy.shader" t="Include" />
+              <e p="Drunk.shader" t="Include" />
+              <e p="DuoTone.shader" t="Include" />
+              <e p="Emboss.shader" t="Include" />
+              <e p="Headache.shader" t="Include" />
+              <e p="Laplacian.shader" t="Include" />
+              <e p="Lens.shader" t="Include" />
+              <e p="LowResolution.shader" t="Include" />
+              <e p="Negative.shader" t="Include" />
+              <e p="NightVision.shader" t="Include" />
+              <e p="NormalMapDistortion.shader" t="Include" />
+              <e p="Posterization.shader" t="Include" />
+              <e p="RadialBlur.shader" t="Include" />
+              <e p="Ripple.shader" t="Include" />
+              <e p="Scanner.shader" t="Include" />
+              <e p="Shadows2D.shader" t="Include" />
+              <e p="Sobel.shader" t="Include" />
+              <e p="ThermalVision.shader" t="Include" />
+              <e p="Waves.shader" t="Include" />
+              <e p="Wiggle.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Standard Assets" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ImageEffects" t="Include">
+                <e p="AntialiasingEditor.cs" t="Include" />
+                <e p="BloomAndFlaresEditor.cs" t="Include" />
+                <e p="BloomEditor.cs" t="Include" />
+                <e p="CameraMotionBlurEditor.cs" t="Include" />
+                <e p="ColorCorrectionCurvesEditor.cs" t="Include" />
+                <e p="ColorCorrectionLookupEditor.cs" t="Include" />
+                <e p="CreaseShadingEditor.cs" t="Include" />
+                <e p="DepthOfFieldDeprecatedEditor.cs" t="Include" />
+                <e p="DepthOfFieldEditor.cs" t="Include" />
+                <e p="EdgeDetectionEditor.cs" t="Include" />
+                <e p="NoiseAndGrainEditor.cs" t="Include" />
+                <e p="SunShaftsEditor.cs" t="Include" />
+                <e p="TonemappingEditor.cs" t="Include" />
+                <e p="VignetteAndChromaticAberrationEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Effects" t="Include">
+              <e p="ImageEffects" t="Include">
+                <e p="scripts" t="Include">
+                  <e p="Antialiasing.cs" t="Include" />
+                  <e p="Bloom.cs" t="Include" />
+                  <e p="BloomAndFlares.cs" t="Include" />
+                  <e p="BloomOptimized.cs" t="Include" />
+                  <e p="Blur.cs" t="Include" />
+                  <e p="BlurOptimized.cs" t="Include" />
+                  <e p="CameraMotionBlur.cs" t="Include" />
+                  <e p="ColorCorrectionCurves.cs" t="Include" />
+                  <e p="ColorCorrectionLookup.cs" t="Include" />
+                  <e p="ColorCorrectionRamp.cs" t="Include" />
+                  <e p="ContrastEnhance.cs" t="Include" />
+                  <e p="ContrastStretch.cs" t="Include" />
+                  <e p="CreaseShading.cs" t="Include" />
+                  <e p="DepthOfField.cs" t="Include" />
+                  <e p="DepthOfFieldDeprecated.cs" t="Include" />
+                  <e p="EdgeDetection.cs" t="Include" />
+                  <e p="Fisheye.cs" t="Include" />
+                  <e p="GlobalFog.cs" t="Include" />
+                  <e p="Grayscale.cs" t="Include" />
+                  <e p="ImageEffectBase.cs" t="Include" />
+                  <e p="ImageEffects.cs" t="Include" />
+                  <e p="MotionBlur.cs" t="Include" />
+                  <e p="NoiseAndGrain.cs" t="Include" />
+                  <e p="NoiseAndScratches.cs" t="Include" />
+                  <e p="PostEffectsBase.cs" t="Include" />
+                  <e p="PostEffectsHelper.cs" t="Include" />
+                  <e p="Quads.cs" t="Include" />
+                  <e p="ScreenOverlay.cs" t="Include" />
+                  <e p="ScreenSpaceAmbientObscurance.cs" t="Include" />
+                  <e p="ScreenSpaceAmbientOcclusion.cs" t="Include" />
+                  <e p="SepiaTone.cs" t="Include" />
+                  <e p="SunShafts.cs" t="Include" />
+                  <e p="TiltShift.cs" t="Include" />
+                  <e p="Tonemapping.cs" t="Include" />
+                  <e p="Triangles.cs" t="Include" />
+                  <e p="Twirl.cs" t="Include" />
+                  <e p="VignetteAndChromaticAberration.cs" t="Include" />
+                  <e p="Vortex.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="_Antialiasing" t="Include">
+                    <e p="DLAA.shader" t="Include" />
+                    <e p="FXAA2.shader" t="Include" />
+                    <e p="FXAA3Console.shader" t="Include" />
+                    <e p="FXAAPreset2.shader" t="Include" />
+                    <e p="FXAAPreset3.shader" t="Include" />
+                    <e p="NFAA.shader" t="Include" />
+                    <e p="SSAA.shader" t="Include" />
+                  </e>
+                  <e p="_BloomAndFlares" t="Include">
+                    <e p="Blend.shader" t="Include" />
+                    <e p="BlendForBloom.shader" t="Include" />
+                    <e p="BlendOneOne.shader" t="Include" />
+                    <e p="BlurAndFlares.shader" t="Include" />
+                    <e p="BrightPassFilter.shader" t="Include" />
+                    <e p="BrightPassFilter2.shader" t="Include" />
+                    <e p="LensFlareCreate.shader" t="Include" />
+                    <e p="MobileBloom.shader" t="Include" />
+                    <e p="MobileBlur.shader" t="Include" />
+                    <e p="MultiPassHollywoodFlares.shader" t="Include" />
+                    <e p="SeparableBlurPlus.shader" t="Include" />
+                    <e p="VignetteShader.shader" t="Include" />
+                  </e>
+                  <e p="_DepthOfField" t="Include">
+                    <e p="Bokeh34.shader" t="Include" />
+                    <e p="DepthOfField34.shader" t="Include" />
+                    <e p="DepthOfFieldDX11.shader" t="Include" />
+                    <e p="DepthOfFieldScatter.shader" t="Include" />
+                    <e p="SeparableBlur.shader" t="Include" />
+                    <e p="SeparableWeightedBlurDof34.shader" t="Include" />
+                    <e p="TiltShiftHdrLensBlur.shader" t="Include" />
+                  </e>
+                  <e p="BlendModesOverlay.shader" t="Include" />
+                  <e p="BlurEffectConeTaps.shader" t="Include" />
+                  <e p="CameraMotionBlur.shader" t="Include" />
+                  <e p="CameraMotionBlurDX11.shader" t="Include" />
+                  <e p="ChromaticAberrationShader.shader" t="Include" />
+                  <e p="ColorCorrection3DLut.shader" t="Include" />
+                  <e p="ColorCorrectionCurves.shader" t="Include" />
+                  <e p="ColorCorrectionCurvesSimple.shader" t="Include" />
+                  <e p="ColorCorrectionEffect.shader" t="Include" />
+                  <e p="ColorCorrectionSelective.shader" t="Include" />
+                  <e p="Contrast Stretch" t="Include">
+                    <e p="Adaptation.shader" t="Include" />
+                    <e p="Apply.shader" t="Include" />
+                    <e p="Luminance.shader" t="Include" />
+                    <e p="MinMaxReduction.shader" t="Include" />
+                  </e>
+                  <e p="ContrastComposite.shader" t="Include" />
+                  <e p="ConvertDepth.shader" t="Include" />
+                  <e p="CreaseApply.shader" t="Include" />
+                  <e p="EdgeDetectNormals.shader" t="Include" />
+                  <e p="FisheyeShader.shader" t="Include" />
+                  <e p="frag_ao.cginc" t="Include" />
+                  <e p="GlobalFog.shader" t="Include" />
+                  <e p="GrayscaleEffect.shader" t="Include" />
+                  <e p="MotionBlur.shader" t="Include" />
+                  <e p="MotionBlurClear.shader" t="Include" />
+                  <e p="NoiseAndGrain.shader" t="Include" />
+                  <e p="NoiseAndGrainDX11.shader" t="Include" />
+                  <e p="NoiseEffectShaderRGB.shader" t="Include" />
+                  <e p="NoiseEffectShaderYUV.shader" t="Include" />
+                  <e p="PrepareSunShaftsBlur.shader" t="Include" />
+                  <e p="RadialBlur.shader" t="Include" />
+                  <e p="ScreenSpaceAmbientObscurance.shader" t="Include" />
+                  <e p="ScreenSpaceRaytrace.cginc" t="Include" />
+                  <e p="SepiaToneEffect.shader" t="Include" />
+                  <e p="ShowAlphaChannel.shader" t="Include" />
+                  <e p="SimpleClear.shader" t="Include" />
+                  <e p="SSAOShader.shader" t="Include" />
+                  <e p="SunShaftsComposite.shader" t="Include" />
+                  <e p="Tonemapper.shader" t="Include" />
+                  <e p="TwirlEffect.shader" t="Include" />
+                  <e p="VignettingShader.shader" t="Include" />
+                  <e p="VortexEffect.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="torch" t="Include">
             <e p="readme.txt" t="Include" />
             <e p="scene" t="Include">
