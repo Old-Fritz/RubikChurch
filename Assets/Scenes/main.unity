@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.4482466, g: 0.4982726, b: 0.57558215, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1935,6 +1935,10 @@ GameObject:
   - component: {fileID: 2096669374}
   - component: {fileID: 2096669373}
   - component: {fileID: 2096669372}
+  - component: {fileID: 2096669378}
+  - component: {fileID: 2096669375}
+  - component: {fileID: 2096669376}
+  - component: {fileID: 2096669377}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2007,3 +2011,72 @@ Transform:
   m_Father: {fileID: 1765520190}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2096669375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096669371}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804642b6be2d17349b3406d817064aad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strengthX: 0.3
+  strengthY: 0.3
+  frequencyX: 10
+  frequencyY: 10
+  speed: 2
+  wavesShader: {fileID: 4800000, guid: 3fd8d87e3eef26745a88fc735d54a5bb, type: 3}
+--- !u!114 &2096669376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096669371}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08bc4aedc0a134147b35c9ef16b410a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitudeX: 20
+  amplitudeY: 10
+  distortionX: 1
+  distortionY: 1
+  speed: 3
+  wiggleShader: {fileID: 4800000, guid: 582885b7e735cb84b85e994f876d8a15, type: 3}
+--- !u!114 &2096669377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096669371}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 213f4051df0ff03468ee6521b5d58ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blurStrength: 0.6
+  samples: 16
+  centerX: 0.5
+  centerY: 0.5
+  radialBlurVisionShader: {fileID: 4800000, guid: 3ba44dedba6910e478e2970667f13940,
+    type: 3}
+--- !u!114 &2096669378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096669371}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80788ae2665d824980daf8af3727a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 1
+  speed: 10
+  headacheShader: {fileID: 4800000, guid: 0a887ecfebb81bb44a5fca288ea7fe1f, type: 3}

@@ -4699,6 +4699,7 @@ Transform:
   - {fileID: 1280397113}
   - {fileID: 1593116289}
   - {fileID: 937124248}
+  - {fileID: 1964523064}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -65038,6 +65039,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1957777153}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1964523063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1964523064}
+  - component: {fileID: 1964523065}
+  m_Layer: 0
+  m_Name: JumpCubeGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1964523064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964523063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 149959312}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964523065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964523063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20aeac4a8c8e46f48bc7cff14c6f6336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubePrefab: {fileID: 7082792383339908580, guid: 7d8ab605922476a4da9f6902ad0f1549,
+    type: 3}
+  maxRadius: 30
+  height: 30
+  count: 30
 --- !u!4 &1968453288 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2719797609682739839, guid: 3d81c559488a7f34490e21bb3ced2ddd,
