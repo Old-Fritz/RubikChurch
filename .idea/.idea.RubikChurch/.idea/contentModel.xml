@@ -349,6 +349,7 @@
           </e>
           <e p="Scene6" t="Include">
             <e p="BorderCube.cs" t="Include" />
+            <e p="BorderCubeManager.cs" t="Include" />
             <e p="JumpCubeGenerator.cs" t="Include" />
           </e>
         </e>

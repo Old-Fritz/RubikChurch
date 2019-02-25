@@ -19,9 +19,11 @@ public class BorderCube : MonoBehaviour
     {
         generateRotationTarget();
         generateScaleTarget();
+        BorderCubeManager.addCube(this);
     }
     
-    void Update()
+    
+    public void updateTransform()
     {
         // update scale
         transform.localScale = Vector3.MoveTowards(transform.localScale, targetScale, Time.deltaTime * scaleSpeed);
@@ -33,7 +35,7 @@ public class BorderCube : MonoBehaviour
         if(cube.transform.localRotation==targetRotation)
             generateRotationTarget();
     }
-
+    
     private void generateScaleTarget()
     {
         targetScale.x = Random.Range(minScale, maxScale);
