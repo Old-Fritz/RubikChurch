@@ -5,7 +5,7 @@ namespace Scene6
 {
     public class DeathCollider : MonoBehaviour
     {    
-        private void OnCollisionEnter(Collision other)
+        private void OnTriggerEnter(Collider other)
         {
             Player player = other.gameObject.GetComponent<Player>();
         
@@ -13,7 +13,7 @@ namespace Scene6
                 DeathEffect.startDeath();
         }
 
-        private void OnCollisionExit(Collision other)
+        private void OnTriggerExit(Collider other)
         {
             Player player = other.gameObject.GetComponent<Player>();
 

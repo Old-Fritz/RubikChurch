@@ -6,7 +6,7 @@ namespace Scene6
 {
     public class DeathEffect : MonoBehaviour
     {
-        [SerializeField] private UnityAction afterDeath;
+        [SerializeField] private UnityEvent afterDeath;
         [SerializeField] private float deathTime;
         [SerializeField] private Image image;
 
@@ -18,7 +18,7 @@ namespace Scene6
             Color color = image.color;
             if (deathColliders > 0)
                 color.a += Time.deltaTime * deathTime;
-            else
+            else if(color.a>0)
                 color.a -= Time.deltaTime * deathTime;
 
             image.color = color;

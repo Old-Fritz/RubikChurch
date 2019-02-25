@@ -1,48 +1,49 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Common.Properties;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class HiddenDoor : MonoBehaviour
+namespace Scene2
 {
-    [SerializeField] private List<TriggerBox> triggers;
-    [SerializeField] private float speed;
-
-    private bool opening, opened;
-    private Vector3 targetPos;
-    
-    void Update()
+    public class HiddenDoor : MonoBehaviour
     {
-        // open door if all triggers are correct
-        if(!opening && !opened && checkTriggers())
-            openDoor();
-        else if (opening)
+        [SerializeField] private List<TriggerBox> triggers;
+        [SerializeField] private float speed;
+
+        private bool opening, opened;
+        private Vector3 targetPos;
+    
+        void Update()
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
-            if (transform.position == targetPos)
+            // open door if all triggers are correct
+            if(!opening && !opened && checkTriggers())
+                openDoor();
+            else if (opening)
             {
-                opened = true;
-                opening = false;
+                transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+                if (transform.position == targetPos)
+                {
+                    opened = true;
+                    opening = false;
+                }
             }
         }
-    }
 
-    private bool checkTriggers()
-    {
-        foreach (TriggerBox trigger in triggers)
+        private bool checkTriggers()
         {
-            if (!trigger.correct)
-                return false;
+            foreach (TriggerBox trigger in triggers)
+            {
+                if (!trigger.correct)
+                    return false;
+            }
+
+            return true;
         }
 
-        return true;
-    }
-
-    private void openDoor()
-    {            
-        // set target pos
-        float length = transform.localScale.y;
-        targetPos = transform.position - new Vector3(0, length, 0);
-        opening = true;
+        private void openDoor()
+        {            
+            // set target pos
+            float length = transform.localScale.y;
+            targetPos = transform.position - new Vector3(0, length, 0);
+            opening = true;
+        }
     }
 }

@@ -1,22 +1,22 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using Common.Managers;
-using Common.Properties;
 using UnityEngine;
 
-public class SceneCur : MonoBehaviour
+namespace Scene2
 {
-    [SerializeField] private String flashlightHint;
+    public class SceneCur : MonoBehaviour
+    {
+        [SerializeField] private String flashlightHint;
     
-    public bool keyUp { get; set; }
+        public bool keyUp { get; set; }
 
-    void Start()
-    {
-        keyUp = false;
-    }
-    private void OnEnable()
-    {
-        Interface.main.showSubtitles(flashlightHint, 5);
+        void Start()
+        {
+            keyUp = false;
+        }
+        private void OnEnable()
+        {
+            Interface.main.showSubtitles(flashlightHint, 5);
+        }
     }
 }

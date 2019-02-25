@@ -1,24 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TriggerBox : MonoBehaviour
+namespace Scene2
 {
-    [SerializeField] private int correctNumber;
+    public class TriggerBox : MonoBehaviour
+    {
+        [SerializeField] private int correctNumber;
     
-    public bool correct { get; protected set; }
+        public bool correct { get; protected set; }
 
-    private void OnCollisionEnter(Collision other)
-    {
-        TriggerCube cube = other.gameObject.GetComponent<TriggerCube>();
-        if (cube && cube.number == correctNumber)
-            correct = true;
-    }
+        private void OnCollisionEnter(Collision other)
+        {
+            TriggerCube cube = other.gameObject.GetComponent<TriggerCube>();
+            if (cube && cube.number == correctNumber)
+                correct = true;
+        }
     
-    private void OnCollisionExit(Collision other)
-    {
-        TriggerCube cube = other.gameObject.GetComponent<TriggerCube>();
-        if (cube && cube.number == correctNumber)
-            correct = false;
+        private void OnCollisionExit(Collision other)
+        {
+            TriggerCube cube = other.gameObject.GetComponent<TriggerCube>();
+            if (cube && cube.number == correctNumber)
+                correct = false;
+        }
     }
 }

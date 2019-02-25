@@ -1,13 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TriggerCube : MonoBehaviour
+namespace Scene2
 {
-    [SerializeField] private float correctNumber;
-    
-    public float number
+    public class TriggerCube : MonoBehaviour
     {
-        get { return correctNumber; }
+        [SerializeField] private float correctNumber;
+    
+        public float number
+        {
+            get { return correctNumber; }
+        }
     }
 }

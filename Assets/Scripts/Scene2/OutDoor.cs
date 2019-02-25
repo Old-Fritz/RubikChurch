@@ -1,14 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Common.Managers;
+﻿using Common.Managers;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class OutDoor : MonoBehaviour
+namespace Scene2
 {
-    public void onClick()
+    public class OutDoor : MonoBehaviour
     {
-        Scenes.goToScene(1);
-    }
+        public void onClick()
+        {
+            Scenes.goToScene(1);
+        }
 
+    }
 }

@@ -1,24 +1,25 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using Common.Managers;
 using UnityEngine;
 
-public class InDoor : MonoBehaviour
+namespace Scene2
 {
-    [SerializeField] private SceneCur scene;
-    [SerializeField] private String closedDoorSubs;
-
-    public void onClick()
+    public class InDoor : MonoBehaviour
     {
-        if (scene.keyUp)
+        [SerializeField] private SceneCur scene;
+        [SerializeField] private String closedDoorSubs;
+
+        public void onClick()
         {
-            Scenes.loadScene(3);
-            Scenes.goToScene(3);
-        }
-        else
-        {
-            Interface.main.showSubtitles(closedDoorSubs,3);
+            if (scene.keyUp)
+            {
+                Scenes.loadScene(3);
+                Scenes.goToScene(3);
+            }
+            else
+            {
+                Interface.main.showSubtitles(closedDoorSubs,3);
+            }
         }
     }
 }

@@ -7,8 +7,6 @@ namespace Common.Properties
 {
     public class Selectable : MonoBehaviour
     {
-        [SerializeField] private UnityEvent onSelect;
-        [SerializeField] private UnityEvent onUnSelect;
         [SerializeField] private String descriptionText;
         [SerializeField] private float distance = 2;
 
@@ -16,14 +14,12 @@ namespace Common.Properties
 
         public void select()
         {
-            onSelect.Invoke();
             Interface.main.changeDescription(descriptionText);
             selected = true;
         }
 
         public void unSelect()
         {
-            onUnSelect.Invoke();
             selected = false;
         }
 
