@@ -5,9 +5,14 @@ namespace Common.PlayerComps
 {
     public class Save : MonoBehaviour
     {
+        public enum End
+        {
+            BL, GOOD, BAD
+        }
+        
         private List<bool> choises;
         private int choise = 0;
-        public Finaling.End currentEnd { get; set; }
+        public End currentEnd { get; set; }
         
         private void Start()
         {

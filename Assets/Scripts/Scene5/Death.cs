@@ -1,41 +1,42 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using Common.Managers;
 using Common.PlayerComps;
+using Common.Properties;
 using UnityEngine;
 
-public class Death : MonoBehaviour
+namespace Scene5
 {
-    [SerializeField] private float deathTime;
-    [SerializeField] private String deathHint;
-
-    private bool waitingDeath, waited;
-
-    // Update is called once per frame
-    void Update()
+    public class Death : MonoBehaviour
     {
-        // Die on press
-        if (waitingDeath)
+        [SerializeField] private String deathHint;
+
+        private bool waitingDeath, waited;
+
+        // Update is called once per frame
+        void Update()
         {
-            if (Input.GetKeyUp(KeyCode.Space))
+            // Die on press
+            if (waitingDeath)
             {
-                // start final
-                Finaling final = Player.main.gameObject.GetComponent<Finaling>();
-                if(final)
-                    final.startFinal(deathTime, Finaling.End.Bad);
-                waitingDeath = false;
-                waited = true;
+                if (Input.GetKeyUp(KeyCode.Space))
+                {
+                    // start final
+                    Transitor transition = Player.main.gameObject.GetComponent<Transitor>();
+                    if(transition)
+                        transition.transite();
+                    waitingDeath = false;
+                    waited = true;
+                }
             }
         }
-    }
 
-    public void waitDeath()
-    {
-        if (!waited)
+        public void waitDeath()
         {
-            waitingDeath = true;
-            Interface.main.showSubtitles(deathHint,1488);
+            if (!waited)
+            {
+                waitingDeath = true;
+                Interface.main.showSubtitles(deathHint,1488);
+            }
         }
     }
 }

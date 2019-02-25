@@ -288,12 +288,12 @@
             </e>
             <e p="PlayerComps" t="Include">
               <e p="Clicker.cs" t="Include" />
-              <e p="Finaling.cs" t="Include" />
               <e p="GoldenCube.cs" t="Include" />
               <e p="MouseRotation.cs" t="Include" />
               <e p="Move.cs" t="Include" />
               <e p="Player.cs" t="Include" />
               <e p="Save.cs" t="Include" />
+              <e p="Transition.cs" t="Include" />
             </e>
             <e p="Properties" t="Include">
               <e p="Clickable.cs" t="Include" />
@@ -301,10 +301,10 @@
               <e p="clickMovable.cs" t="Include" />
               <e p="ClickSubs.cs" t="Include" />
               <e p="Draggable.cs" t="Include" />
-              <e p="Final.cs" t="Include" />
               <e p="Note.cs" t="Include" />
               <e p="Selectable.cs" t="Include" />
               <e p="Spawn.cs" t="Include" />
+              <e p="Transitor.cs" t="Include" />
             </e>
           </e>
           <e p="Cube" t="Include">
@@ -350,6 +350,8 @@
           <e p="Scene6" t="Include">
             <e p="BorderCube.cs" t="Include" />
             <e p="BorderCubeManager.cs" t="Include" />
+            <e p="DeathCollider.cs" t="Include" />
+            <e p="DeathEffect.cs" t="Include" />
             <e p="JumpCubeGenerator.cs" t="Include" />
           </e>
         </e>
