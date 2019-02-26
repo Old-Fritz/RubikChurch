@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene8.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/Interface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Managers/Interface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Move.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/ClickMovable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Properties/ClickMovable.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -107,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BLCanvas.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BLCanvas.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene7/BLCanvas.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -129,6 +122,24 @@
                 <marker date="1551214717016" expanded="true" signature="1828:1921" ph="{...}" />
                 <marker date="1551214717016" expanded="true" signature="1987:2138" ph="{...}" />
                 <marker date="1551214717016" expanded="true" signature="2185:2427" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <folding>
+                <marker date="1551215405543" expanded="false" signature="6:44" ph="..." />
+                <marker date="1551215405543" expanded="true" signature="71:939" ph="{...}" />
+                <marker date="1551215405543" expanded="true" signature="118:937" ph="{...}" />
+                <marker date="1551215405543" expanded="true" signature="187:299" ph="{...}" />
+                <marker date="1551215405543" expanded="true" signature="322:403" ph="{...}" />
+                <marker date="1551215405543" expanded="true" signature="445:931" ph="{...}" />
+                <marker date="1551215405543" expanded="true" signature="498:921" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -342,12 +353,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene6/MegaCube.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Properties/ClickMovable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene7/Bus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene7/SceneCur.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Managers/Interface.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene7/BLCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -360,7 +371,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="854" />
     <option name="width" value="1073" />
     <option name="height" value="1047" />
@@ -502,12 +513,12 @@
       <workItem from="1550937702462" duration="1866000" />
       <workItem from="1551040305628" duration="717000" />
       <workItem from="1551094629604" duration="12342000" />
-      <workItem from="1551136353968" duration="13246000" />
+      <workItem from="1551136353968" duration="13604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172477000" />
+    <option name="totallyTimeSpent" value="172835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,12 +541,12 @@
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.68645835" visible="true" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.68645835" visible="true" weight="0.3995749" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1010,22 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <marker date="1551206520194" expanded="false" signature="6:44" ph="..." />
-            <marker date="1551206520194" expanded="true" signature="71:939" ph="{...}" />
-            <marker date="1551206520194" expanded="true" signature="118:937" ph="{...}" />
-            <marker date="1551206520194" expanded="true" signature="187:299" ph="{...}" />
-            <marker date="1551206520194" expanded="true" signature="322:403" ph="{...}" />
-            <marker date="1551206520194" expanded="true" signature="445:931" ph="{...}" />
-            <marker date="1551206520194" expanded="true" signature="498:921" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene6/DeathEffect.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1214,6 +1209,22 @@
             <marker date="1551214717016" expanded="true" signature="1828:1921" ph="{...}" />
             <marker date="1551214717016" expanded="true" signature="1987:2138" ph="{...}" />
             <marker date="1551214717016" expanded="true" signature="2185:2427" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/Managers/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <marker date="1551215405543" expanded="false" signature="6:44" ph="..." />
+            <marker date="1551215405543" expanded="true" signature="71:939" ph="{...}" />
+            <marker date="1551215405543" expanded="true" signature="118:937" ph="{...}" />
+            <marker date="1551215405543" expanded="true" signature="187:299" ph="{...}" />
+            <marker date="1551215405543" expanded="true" signature="322:403" ph="{...}" />
+            <marker date="1551215405543" expanded="true" signature="445:931" ph="{...}" />
+            <marker date="1551215405543" expanded="true" signature="498:921" ph="{...}" />
           </folding>
         </state>
       </provider>
