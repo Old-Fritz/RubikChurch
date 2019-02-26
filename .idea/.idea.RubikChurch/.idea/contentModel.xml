@@ -348,11 +348,14 @@
             <e p="Skeleton.cs" t="Include" />
           </e>
           <e p="Scene6" t="Include">
+            <e p="BorderCollider.cs" t="Include" />
             <e p="BorderCube.cs" t="Include" />
             <e p="BorderCubeManager.cs" t="Include" />
             <e p="DeathCollider.cs" t="Include" />
             <e p="DeathEffect.cs" t="Include" />
             <e p="JumpCubeGenerator.cs" t="Include" />
+            <e p="MegaCube.cs" t="Include" />
+            <e p="StartCoridor.cs" t="Include" />
           </e>
         </e>
       </e>
