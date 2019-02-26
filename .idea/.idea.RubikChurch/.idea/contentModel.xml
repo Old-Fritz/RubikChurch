@@ -358,6 +358,10 @@
             <e p="MegaCube.cs" t="Include" />
             <e p="StartCoridor.cs" t="Include" />
           </e>
+          <e p="Scene7" t="Include">
+            <e p="BLCanvas.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

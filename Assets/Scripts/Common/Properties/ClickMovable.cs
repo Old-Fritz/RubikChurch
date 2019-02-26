@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 namespace Common.Properties
 {
@@ -7,6 +8,7 @@ namespace Common.Properties
     
         [SerializeField] private float speed = 1;
         [SerializeField] private Vector3 direction;
+        [SerializeField] private UnityEvent onEndMove;
         
         private bool moving, moved;
         private Vector3 targetPos;
@@ -20,6 +22,7 @@ namespace Common.Properties
                 {
                     moving = false;
                     moved = true;
+                    onEndMove.Invoke();
                 }
             }
         }

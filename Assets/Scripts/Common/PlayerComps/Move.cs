@@ -21,7 +21,10 @@ namespace Common.PlayerComps
 
                 Rigidbody rigid = GetComponent<Rigidbody>();
                 if (rigid)
+                {
                     rigid.useGravity = value;
+                    rigid.isKinematic = !value;
+                }
             }
         }
 

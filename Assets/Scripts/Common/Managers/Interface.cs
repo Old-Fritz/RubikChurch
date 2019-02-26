@@ -10,6 +10,7 @@ namespace Common.Managers
     {
         [SerializeField] private Text description;
         [SerializeField] private Text subtitles;
+        [SerializeField] private GameObject target;
         [SerializeField] private NotesWindow notes;
     
     
@@ -49,7 +50,10 @@ namespace Common.Managers
                 subtitles.text = "";
         }
 
-    
+        public void setTargetActive(bool value)
+        {
+            target.SetActive(value);
+        }
     
     
     }

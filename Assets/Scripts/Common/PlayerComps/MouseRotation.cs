@@ -47,6 +47,8 @@ namespace Common.PlayerComps
 		public void setRotation(Quaternion newRotation)
 		{
 			camera.transform.localRotation = newRotation;
+			rotY = newRotation.eulerAngles.x;
+			rotX = newRotation.eulerAngles.y;
 		}
 	}
 }
