@@ -66,7 +66,8 @@ namespace Common.Managers
                 
             // spawn player
             GameObject spawn = GameObject.FindGameObjectWithTag("Spawn");
-            spawn.GetComponent<Spawn>().spawn(player);
+            if(spawn)
+                spawn.GetComponent<Spawn>().spawn(player);
         
 
         }
@@ -94,6 +95,18 @@ namespace Common.Managers
         private static Scene getSceneByNumber(int sceneNumber)
         {
             return SceneManager.GetSceneByName(getSceneName(sceneNumber));
+        }
+        
+        public static void loadMain()
+        {
+            foreach(Scene scene in scenes)
+            {
+                SceneManager.UnloadSceneAsync(scene);
+            }
+
+            currentScene = -1;
+            SceneManager.UnloadSceneAsync("main");
+            SceneManager.LoadSceneAsync("main", LoadSceneMode.Single);
         }
     }
 }

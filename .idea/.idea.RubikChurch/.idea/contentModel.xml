@@ -362,6 +362,9 @@
             <e p="BLCanvas.cs" t="Include" />
             <e p="SceneCur.cs" t="Include" />
           </e>
+          <e p="Scene9" t="Include">
+            <e p="TextController.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
