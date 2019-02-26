@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.4482466, g: 0.4982726, b: 0.57558215, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -65067,7 +65067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  direction: {x: 0, y: -3, z: 0}
+  direction: {x: 0, y: -4, z: 0}
 --- !u!114 &1924049881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66647,8 +66647,8 @@ MonoBehaviour:
   cubePrefab: {fileID: 7082792383339908580, guid: 7d8ab605922476a4da9f6902ad0f1549,
     type: 3}
   maxRadius: 30
-  height: 30
-  count: 30
+  height: 15
+  count: 50
 --- !u!1 &1965216749
 GameObject:
   m_ObjectHideFlags: 0

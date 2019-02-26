@@ -1,4 +1,5 @@
-﻿using Cube;
+﻿using Common.PlayerComps;
+using Cube;
 using UnityEngine;
 
 namespace Scene6
