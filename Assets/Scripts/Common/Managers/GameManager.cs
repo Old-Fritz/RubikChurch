@@ -26,11 +26,11 @@ namespace Common.Managers
                 // move accepted in scene1
                 Move playerMove = Player.main.GetComponent<Move>();
                 if (playerMove)
-                    playerMove.moveAccepted = true;
+                    playerMove.moveAccepted = false;
                 
                 // go to start scene
-                Scenes.loadScene(8);
-                Scenes.goToScene(8);
+                Scenes.loadScene(0);
+                Scenes.goToScene(0);
                 //Scenes.loadScene(2);
                 onStart = false;
             }

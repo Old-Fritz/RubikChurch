@@ -15,6 +15,8 @@ namespace Scene2
             {
                 Scenes.loadScene(3);
                 Scenes.goToScene(3);
+                Scenes.unLoadScene(1);
+                Scenes.unLoadScene(2);
             }
             else
             {

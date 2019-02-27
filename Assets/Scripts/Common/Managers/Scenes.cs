@@ -33,6 +33,8 @@ namespace Common.Managers
         // called second
         private static void onSceneLoaded(Scene scene, LoadSceneMode mode)
         {
+            if(scenes.Contains(scene))
+                return;
             scenes.Add(scene);
             // go to loaded scene if needed
             if (goToSceneNumber >= 0 && scene.name == getSceneName(goToSceneNumber))
@@ -108,5 +110,6 @@ namespace Common.Managers
             SceneManager.UnloadSceneAsync("main");
             SceneManager.LoadSceneAsync("main", LoadSceneMode.Single);
         }
+
     }
 }
