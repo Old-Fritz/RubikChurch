@@ -624,6 +624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -678,11 +683,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -1674,16 +1674,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0427\u043B\u0435\u043D \u043E\u0440\u0434\u0435\u043D\u0430"
   distance: 2
 --- !u!4 &114673344
@@ -2034,6 +2024,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2089,11 +2084,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
 --- !u!4 &154510909 stripped
@@ -2118,7 +2108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &154529995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4012,16 +4002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u0443\u0431\u0438\u043A \u0420\u0443\u0431\u0438\u043A\u0430"
   distance: 2
 --- !u!1001 &237330765
@@ -4489,6 +4469,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4543,11 +4528,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -5035,6 +5015,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5089,11 +5074,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -5612,16 +5592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u0443\u0431\u0438\u043A \u0420\u0443\u0431\u0438\u043A\u0430"
   distance: 2
 --- !u!1001 &341153388
@@ -6323,6 +6293,7 @@ Transform:
   - {fileID: 509189605}
   - {fileID: 42009175}
   - {fileID: 1031299532}
+  - {fileID: 1486490461}
   m_Father: {fileID: 2039495028}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -7194,6 +7165,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7248,11 +7224,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -7987,6 +7958,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8041,11 +8017,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -8369,6 +8340,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8423,11 +8399,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -8867,6 +8838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8936,11 +8912,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -9036,6 +9007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9105,11 +9081,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -9569,13 +9540,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585714383}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.763, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 154529996}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &585714385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9715,6 +9686,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9770,11 +9746,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
 --- !u!4 &614836665 stripped
@@ -9794,6 +9765,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -9864,11 +9840,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -10351,6 +10322,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10406,11 +10382,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
 --- !u!4 &647798534 stripped
@@ -10430,6 +10401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -10500,11 +10476,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -10744,16 +10715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u0443\u0431\u0438\u043A \u0420\u0443\u0431\u0438\u043A\u0430"
   distance: 2
 --- !u!1001 &656869300
@@ -11014,16 +10975,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0427\u043B\u0435\u043D \u043E\u0440\u0434\u0435\u043D\u0430"
   distance: 2
 --- !u!4 &663200618
@@ -11088,6 +11039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11141,11 +11097,6 @@ PrefabInstance:
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11340,6 +11291,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11394,11 +11350,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -11678,6 +11629,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11732,11 +11688,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -12163,16 +12114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0427\u043B\u0435\u043D \u043E\u0440\u0434\u0435\u043D\u0430"
   distance: 2
 --- !u!4 &729079370
@@ -12784,6 +12725,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12853,11 +12799,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -13316,16 +13257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0427\u043B\u0435\u043D \u043E\u0440\u0434\u0435\u043D\u0430"
   distance: 2
 --- !u!1001 &792622667
@@ -13339,6 +13270,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -13394,11 +13330,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -13890,6 +13821,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13945,11 +13881,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
 --- !u!4 &812595329 stripped
@@ -13969,6 +13900,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -14039,11 +13975,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -14354,6 +14285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14423,11 +14359,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.70000094
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -14524,6 +14455,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14578,11 +14514,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -14695,6 +14626,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14749,11 +14685,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -15071,16 +15002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041E\u0433\u0440\u043E\u043C\u043D\u0430\u044F \u044D\u043B\u0435\u043A\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
     \u0434\u0432\u0435\u0440\u044C"
   distance: 2
@@ -15111,6 +15032,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   direction: {x: 0, y: 0, z: -2}
+  onEndMove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!4 &844609273 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4021411471261830509, guid: edc2234f888fce14a973e4db4e9cbd18,
@@ -15198,6 +15124,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15252,11 +15183,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -15722,16 +15648,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0427\u043B\u0435\u043D \u043E\u0440\u0434\u0435\u043D\u0430"
   distance: 2
 --- !u!1 &915358842
@@ -16198,16 +16114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0414\u0440\u0435\u043B\u044C"
   distance: 3
 --- !u!114 &947148341
@@ -16276,6 +16182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16330,11 +16241,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -16431,6 +16337,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16500,11 +16411,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -17273,6 +17179,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17327,11 +17238,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -17854,6 +17760,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17923,11 +17834,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -18318,16 +18224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u0443\u0431\u0438\u043A \u0420\u0443\u0431\u0438\u043A\u0430"
   distance: 2
 --- !u!1 &1102857928
@@ -18424,16 +18320,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0412\u0437\u044F\u0442\u044C \u043A\u043B\u044E\u0447"
   distance: 2
 --- !u!65 &1103186837
@@ -18552,6 +18438,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18621,11 +18512,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -19403,6 +19289,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19457,11 +19348,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -19701,6 +19587,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19771,11 +19662,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_Mass
@@ -19800,6 +19686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -19855,11 +19746,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -20916,6 +20802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20970,11 +20861,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -21225,6 +21111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21279,11 +21170,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -21472,6 +21358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21526,11 +21417,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -22053,6 +21939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22107,11 +21998,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -22518,6 +22404,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22572,11 +22463,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -23312,6 +23198,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23366,11 +23257,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -23820,16 +23706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0417\u0430\u043F\u0443\u0441\u0442\u0438\u044C \u0433\u0435\u043D\u0435\u0440\u0430\u0442\u043E\u0440"
   distance: 2
 --- !u!65 &1447734023
@@ -23926,6 +23802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23980,11 +23861,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -24405,6 +24281,101 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1793996445}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1486490460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1486490461}
+  - component: {fileID: 1486490464}
+  - component: {fileID: 1486490463}
+  - component: {fileID: 1486490462}
+  m_Layer: 0
+  m_Name: OutTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1486490461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486490460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 372580698}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1486490462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486490460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e31dec3035620546bb67e8b8a68d44f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTrigger: 1
+  onEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1486490463}
+        m_MethodName: transite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1486490463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486490460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2cd29089e6bf44584933b21386af5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forwardTime: 2
+  backTime: 2
+  scene: 4
+--- !u!65 &1486490464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486490460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1487370299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24549,6 +24520,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24603,11 +24579,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -24961,6 +24932,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25031,11 +25007,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_Mass
@@ -25060,6 +25031,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -25115,11 +25091,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -25453,6 +25424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25507,11 +25483,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -25799,6 +25770,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25868,11 +25844,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -26092,6 +26063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26146,11 +26122,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -26805,16 +26776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u0443\u0431\u0438\u043A \u0420\u0443\u0431\u0438\u043A\u0430.
     \u0425\u043C\u043C\u043C..."
   distance: 2
@@ -27731,6 +27692,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27785,11 +27751,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -28057,6 +28018,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28111,11 +28077,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -28234,6 +28195,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28288,11 +28254,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -28596,6 +28557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28665,11 +28631,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -29198,16 +29159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u0435\u0440\u0432\u044B\u0439 \u043A\u0443\u0431\u0438\u043A
     \u0440\u0443\u0431\u0438\u043A\u0430"
   distance: 2
@@ -29631,16 +29582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u0443\u0431\u0438\u043A \u0420\u0443\u0431\u0438\u043A\u0430"
   distance: 2
 --- !u!4 &1929312562
@@ -29675,6 +29616,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -29730,11 +29676,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -30119,6 +30060,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30174,11 +30120,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
 --- !u!4 &1966253858 stripped
@@ -30210,6 +30151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -30280,11 +30226,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -30816,6 +30757,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30870,11 +30816,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -31063,16 +31004,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0427\u043B\u0435\u043D \u043E\u0440\u0434\u0435\u043D\u0430"
   distance: 2
 --- !u!1 &2015433438
@@ -31213,6 +31144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31267,11 +31203,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -31707,6 +31638,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31761,11 +31697,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -32513,16 +32444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u043E\u0440\u0442\u0440\u0435\u0442 \u0420\u0443\u0431\u0438\u043A\u0430"
   distance: 2
 --- !u!114 &2107771862
@@ -32572,6 +32493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RubikCubeLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -32642,11 +32568,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1029290250185300043, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
@@ -32985,6 +32906,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   direction: {x: 1, y: 0, z: 0}
+  onEndMove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1276330821013594
 GameObject:
   m_ObjectHideFlags: 0
@@ -33050,6 +32976,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   direction: {x: 1, y: 0, z: 0}
+  onEndMove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1527157432319821
 GameObject:
   m_ObjectHideFlags: 0
@@ -33128,6 +33059,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   direction: {x: 0, y: 0, z: 1}
+  onEndMove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1527158472211202
 GameObject:
   m_ObjectHideFlags: 0
@@ -33206,6 +33142,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   direction: {x: 1, y: 0, z: 0}
+  onEndMove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1949194063678515
 GameObject:
   m_ObjectHideFlags: 0
@@ -33284,6 +33225,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   direction: {x: 1, y: 0, z: 0}
+  onEndMove:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!4 &4068732668416656
 Transform:
   m_ObjectHideFlags: 0
@@ -33910,16 +33856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &733176251544503615
@@ -33934,16 +33870,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &733176251790335640
@@ -33958,16 +33884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &891642325323883140
@@ -34010,16 +33926,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &1034561338009841023
@@ -34034,16 +33940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &1034561338330637477
@@ -34058,16 +33954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &1034561338498928696
@@ -34082,16 +33968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!64 &1116744078136832674
@@ -34592,16 +34468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!114 &3477430068846359769
@@ -34616,16 +34482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!114 &3477430068943869021
@@ -34640,16 +34496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!114 &3477430069350326071
@@ -34664,16 +34510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!114 &3477430069503181778
@@ -34688,16 +34524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!114 &3477430070014075593
@@ -34712,16 +34538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!114 &3477430070138041422
@@ -34736,16 +34552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!4 &4021411471261830509 stripped
@@ -34821,16 +34627,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2754475552856223532, guid: 1eb3b2c5606880944aae4d0df27c4beb,
-        type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 4861447021022336991, guid: 1eb3b2c5606880944aae4d0df27c4beb,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f1c4e24cf1e90c444aa59edbdb3c25b4, type: 2}
+    - target: {fileID: 2754475552856223532, guid: 1eb3b2c5606880944aae4d0df27c4beb,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eb3b2c5606880944aae4d0df27c4beb, type: 3}
 --- !u!1 &4048797341852739059 stripped
@@ -34881,16 +34687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u0443\u0431\u0438\u043A \u0420\u0443\u0431\u0438\u043A\u0430"
   distance: 2
 --- !u!114 &4582826896259126447
@@ -35045,16 +34841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!64 &5095456216568254253
@@ -35153,16 +34939,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &5221198932637368227
@@ -35177,16 +34953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &5221198933678664256
@@ -35201,16 +34967,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!64 &5641944618676933779
@@ -39230,16 +38986,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041C\u0443\u043B\u044C\u0442\u0438\u043F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!114 &7462964399755710553
@@ -39254,16 +39000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041C\u0443\u043B\u044C\u0442\u0438\u043F\u0438\u043F\u0435\u0442\u043A\u0430"
   distance: 2
 --- !u!114 &7597392633963044125
@@ -39431,16 +39167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u0422\u043E\u043F\u043B\u0438\u0432\u043E"
   distance: 2
 --- !u!114 &7718127312762826496
@@ -39571,16 +39297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &8528322228503882424
@@ -39595,16 +39311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &8528322229208276743
@@ -39619,16 +39325,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &8886099509518217605
@@ -39643,16 +39339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!114 &8886099509893793627
@@ -39667,16 +39353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUnSelect:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   descriptionText: "\u041A\u043E\u043B\u0431\u0430"
   distance: 2
 --- !u!54 &8974038313031349940

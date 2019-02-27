@@ -306,6 +306,7 @@
               <e p="Selectable.cs" t="Include" />
               <e p="Spawn.cs" t="Include" />
               <e p="Transitor.cs" t="Include" />
+              <e p="Trigger.cs" t="Include" />
             </e>
           </e>
           <e p="Cube" t="Include">
@@ -341,6 +342,7 @@
             <e p="SceneCur.cs" t="Include" />
           </e>
           <e p="Scene4" t="Include">
+            <e p="LabirintTrigger.cs" t="Include" />
             <e p="MovingCube.cs" t="Include" />
             <e p="OutDoor.cs" t="Include" />
           </e>

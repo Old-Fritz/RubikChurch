@@ -21,11 +21,16 @@ namespace Scene5
                 if (Input.GetKeyUp(KeyCode.Space))
                 {
                     // start final
-                    Transitor transition = Player.main.gameObject.GetComponent<Transitor>();
+                    Transitor transition = GetComponent<Transitor>();
                     if(transition)
                         transition.transite();
                     waitingDeath = false;
                     waited = true;
+                    
+                    // set ending
+                    Save save = Player.main.GetComponent<Save>();
+                    if (save)
+                        save.currentEnd = Save.End.BAD;
                 }
             }
         }
