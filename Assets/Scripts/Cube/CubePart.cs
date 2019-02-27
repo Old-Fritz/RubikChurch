@@ -17,7 +17,7 @@ namespace Cube
 		{
 			// check if start and current positions are equal
 			float epsilon = 0.0001f;
-			Vector3 difference = transform.localPosition - startPosition;
+			Vector3 difference = transform.localRotation.eulerAngles;
 			if (Math.Abs(difference.x) < epsilon && Math.Abs(difference.y) < epsilon && Math.Abs(difference.z) < epsilon)
 				return true;
 			return false;

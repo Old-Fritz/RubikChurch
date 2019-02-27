@@ -20,7 +20,7 @@ namespace Common.PlayerComps
             {
                 blackScreen.color = new Color(0, 0, 0, blackScreen.color.a + Time.deltaTime * forwardDeltaTime);
                 if (blackScreen.color.a >= 1)
-                    goToFinal();
+                    transite();
             }
             // make screen lighter in back
             if (back)
@@ -41,13 +41,11 @@ namespace Common.PlayerComps
             forward = true;
         }
         
-        private void goToFinal()
+        private void transite()
         {
             forward = false;
             back = true;
-            Scenes.loadScene(transScene);
             Scenes.goToScene(transScene);
-            Scenes.unLoadScene(Scenes.currentScene);
         }
     }   
 }

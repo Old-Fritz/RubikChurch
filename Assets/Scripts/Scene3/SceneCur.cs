@@ -1,11 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Common.Managers;
 using UnityEngine;
 
 namespace Scene3
 {
     public class SceneCur : MonoBehaviour
     {
+        void Start()
+        {
+            // preload scene
+            Scenes.unLoadScene(1);
+            Scenes.unLoadScene(2);
+            Scenes.loadScene(4);
+        }
+        
         public bool keyUp { get; set; }
         public bool drillUp { get; set; }
         public bool fuelUp { get; set; }

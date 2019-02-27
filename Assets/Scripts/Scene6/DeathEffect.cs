@@ -10,6 +10,9 @@ namespace Scene6
         [SerializeField] private float deathTime;
         [SerializeField] private Image image;
 
+        private bool dead;
+        
+        
         private static int deathColliders = 0;
 
         void Update()
@@ -24,8 +27,11 @@ namespace Scene6
             image.color = color;
         
             // invoke death action in end of effect
-            if(color.a >=1)
+            if (color.a >= 1 && !dead)
+            {
+                dead = true;
                 afterDeath.Invoke();
+            }
         }
     
         public static void startDeath()

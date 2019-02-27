@@ -13,10 +13,7 @@ namespace Scene2
         {
             if (scene.keyUp)
             {
-                Scenes.loadScene(3);
                 Scenes.goToScene(3);
-                Scenes.unLoadScene(1);
-                Scenes.unLoadScene(2);
             }
             else
             {

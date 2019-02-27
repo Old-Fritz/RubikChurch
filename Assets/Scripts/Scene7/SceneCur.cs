@@ -1,4 +1,5 @@
-﻿using Common.PlayerComps;
+﻿using Common.Managers;
+using Common.PlayerComps;
 using Common.Properties;
 using UnityEngine;
 
@@ -22,6 +23,11 @@ namespace Scene7
             // run bus
             if(bus)
                 bus.move();
+            
+            // unload scenes
+            Scenes.unLoadScene(6);
+            Scenes.unLoadScene(8);
+            Scenes.loadScene(9);
         }
         
     }

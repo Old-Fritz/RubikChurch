@@ -9,6 +9,7 @@ public class EffectsController : MonoBehaviour
 
     public void setEffectsActive(bool value)
     {
+        // turn on post effects
         Headache headache = camera.GetComponent<Headache>();
         if (headache)
             headache.enabled = value;
@@ -24,5 +25,16 @@ public class EffectsController : MonoBehaviour
         RadialBlur radialBlur = camera.GetComponent<RadialBlur>();
         if (radialBlur)
             radialBlur.enabled = value;
+        
+        // set far plane
+        Camera cameraComp = camera.GetComponent<Camera>();
+        if (camera)
+        {
+            if (value)
+                cameraComp.farClipPlane = 100000;
+            else
+                cameraComp.farClipPlane = 100;
+        }
+           
     }
 }

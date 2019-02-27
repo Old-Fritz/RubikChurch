@@ -21,10 +21,8 @@ namespace Scene0
                 if (playerMove)
                     playerMove.moveAccepted = true;
             
-                Scenes.loadScene(1);
                 Scenes.goToScene(1);
-                Scenes.unLoadScene(0);
-                Scenes.loadScene(2);
+
             }
         }
     }

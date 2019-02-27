@@ -26,7 +26,7 @@ namespace Common.Managers
                 // move accepted in scene1
                 Move playerMove = Player.main.GetComponent<Move>();
                 if (playerMove)
-                    playerMove.moveAccepted = false;
+                    playerMove.moveAccepted = true;
                 
                 // go to start scene
                 Scenes.loadScene(0);

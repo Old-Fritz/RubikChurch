@@ -345,9 +345,11 @@
             <e p="LabirintTrigger.cs" t="Include" />
             <e p="MovingCube.cs" t="Include" />
             <e p="OutDoor.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
           </e>
           <e p="Scene5" t="Include">
             <e p="Death.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
             <e p="Skeleton.cs" t="Include" />
           </e>
           <e p="Scene6" t="Include">
@@ -358,10 +360,14 @@
             <e p="DeathEffect.cs" t="Include" />
             <e p="JumpCubeGenerator.cs" t="Include" />
             <e p="MegaCube.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
             <e p="StartCoridor.cs" t="Include" />
           </e>
           <e p="Scene7" t="Include">
             <e p="BLCanvas.cs" t="Include" />
+            <e p="SceneCur.cs" t="Include" />
+          </e>
+          <e p="Scene8" t="Include">
             <e p="SceneCur.cs" t="Include" />
           </e>
           <e p="Scene9" t="Include">

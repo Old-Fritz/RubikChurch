@@ -22,12 +22,16 @@ namespace Common.Managers
     
         public static void loadScene(int sceneNumber)
         {
-            SceneManager.LoadSceneAsync(getSceneName(sceneNumber), LoadSceneMode.Additive);
+            Scene scene = getSceneByNumber(sceneNumber);
+            if(!scene.isLoaded)
+                SceneManager.LoadSceneAsync(getSceneName(sceneNumber), LoadSceneMode.Additive);
         }
     
         public static void unLoadScene(int sceneNumber)
         {
-            SceneManager.UnloadSceneAsync(getSceneName(sceneNumber));
+            Scene scene = getSceneByNumber(sceneNumber);
+            if(scene.isLoaded)
+                SceneManager.UnloadSceneAsync(getSceneName(sceneNumber));
         }
 
         // called second
@@ -43,8 +47,6 @@ namespace Common.Managers
                 currentScene = goToSceneNumber;
                 goToSceneNumber = -1;
             }
-            else
-                scene.GetRootGameObjects()[0].SetActive(false);
             
         }
         private static void onSceneUnloaded(Scene scene)
@@ -58,14 +60,14 @@ namespace Common.Managers
             Scene oldScene = getSceneByNumber(currentScene);
             oldScene.GetRootGameObjects()[0].SetActive(false);
         
-            // move player to new scene
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            SceneManager.MoveGameObjectToScene(player, scene);
-        
             // activate scene
             SceneManager.SetActiveScene(scene);
             scene.GetRootGameObjects()[0].SetActive(true);
-                
+            
+            // move player to new scene
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            SceneManager.MoveGameObjectToScene(player, scene);
+           
             // spawn player
             GameObject spawn = GameObject.FindGameObjectWithTag("Spawn");
             if(spawn)
@@ -108,7 +110,7 @@ namespace Common.Managers
 
             currentScene = -1;
             SceneManager.UnloadSceneAsync("main");
-            SceneManager.LoadSceneAsync("main", LoadSceneMode.Single);
+            SceneManager.LoadScene("main", LoadSceneMode.Single);
         }
 
     }
