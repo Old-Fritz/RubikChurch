@@ -9,6 +9,7 @@ namespace Common.Managers
     
         void Start()
         {   
+            Cursor.visible = false;
             Scenes.Init();
             Random.InitState((int)System.DateTime.Now.Ticks);
         }
