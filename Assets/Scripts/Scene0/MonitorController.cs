@@ -1,4 +1,6 @@
-﻿using Common.PlayerComps;
+﻿using System;
+using Common.Managers;
+using Common.PlayerComps;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,12 +14,16 @@ namespace Scene0
         [SerializeField] private GameObject blAlert;
         [SerializeField] private GameObject blGame;
         [SerializeField] private GameObject icons;
+        [SerializeField] private String startBrowserText;
         [SerializeField] private SceneCur scene;
     
         public void openBrowser()
         {
             if (!scene.cubeUp)
+            {
+                Interface.main.showSubtitles(startBrowserText, 3);
                 return;
+            }
         
             mainScreen.SetActive(false);
             browserSearch.SetActive(true);
