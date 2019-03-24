@@ -12,13 +12,21 @@ namespace Scene3
         [SerializeField] private String afterDrillUpSubs;
         [SerializeField] private String afterFuelUpSubs;
         [SerializeField] private String afterLaunchUpSubs;
+        [SerializeField] private AudioClip generatorPlay;
 
+        private AudioSource source;
         private bool drilled, fueled, prayed;
+
+        private void Start()
+        {
+            source = GetComponent<AudioSource>();
+        }
 
         public void onClick()
         {
             if (!drilled)
             {
+                source.Play();
                 if (scene.drillUp)
                 {
                     drilled = true;
@@ -29,6 +37,7 @@ namespace Scene3
             }
             else if (!fueled)
             {
+                source.Play();
                 if (scene.fuelUp)
                 {
                     fueled = true;
@@ -45,12 +54,19 @@ namespace Scene3
                     launch();
                 }
                 else
+                {
+                    source.Play();
                     Interface.main.showSubtitles(afterFuelUpSubs);
+                }
             }
         }
         
         private void launch()
         {
+            source.clip = generatorPlay;
+            source.loop = true;
+            source.Play();
+            
             lights.SetActive(true);
             Interface.main.showSubtitles(afterLaunchUpSubs);
             scene.generatorLaunched = true;

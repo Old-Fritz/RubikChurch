@@ -8,6 +8,7 @@ namespace Scene7
     public class SceneCur : MonoBehaviour
     {
         [SerializeField] private ClickMovable bus;
+        [SerializeField] private AudioClip soundtrack;
         
         void Start()
         {
@@ -29,6 +30,10 @@ namespace Scene7
             Scenes.unLoadScene(8);
             Scenes.loadScene(9);
         }
-        
+
+        private void OnEnable()
+        {
+            Music.set(soundtrack);
+        }
     }
 }

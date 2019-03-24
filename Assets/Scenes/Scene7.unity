@@ -6629,6 +6629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bus: {fileID: 2897505019932798387}
+  soundtrack: {fileID: 8300000, guid: 6c0e7c73d0952d3498d4fb1f855a3307, type: 3}
 --- !u!1001 &1898928046
 PrefabInstance:
   m_ObjectHideFlags: 0

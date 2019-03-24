@@ -13,7 +13,14 @@ namespace Scene3
         [SerializeField] private String onClickSubs;
         
         private bool opened = false;
+        private AudioSource source;
 
+
+        void Start()
+        {
+            source = GetComponent<AudioSource>();
+        }
+        
         public void onClick()
         {
             Interface.main.showSubtitles(onClickSubs);
@@ -42,7 +49,10 @@ namespace Scene3
             {
                 move.move();
                 opened = true;
+                source.Play();
             }
+            
+            
         }
     }
 }

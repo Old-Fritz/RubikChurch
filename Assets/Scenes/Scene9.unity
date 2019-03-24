@@ -403,7 +403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1536128647
 Transform:
   m_ObjectHideFlags: 0
@@ -633,3 +633,4 @@ MonoBehaviour:
   - 70
   - 80
   - 90
+  endSound: {fileID: 8300000, guid: 48c186592472ab2469d526f865e8057c, type: 3}

@@ -10,6 +10,9 @@ namespace Scene1
         [SerializeField] private String grabHint;
         [SerializeField] private Spawn spawn;
         [SerializeField] private Spawn newSpawn;
+        [SerializeField] private AudioClip soundtrack;
+
+        private bool started;
 
         void Start()
         {
@@ -20,6 +23,12 @@ namespace Scene1
 
         private void OnEnable()
         {
+            if (!started)
+            {
+                Music.set(soundtrack);
+                started = true;
+            }
+            
             Interface.main.showSubtitles(grabHint, 5);
             
         }

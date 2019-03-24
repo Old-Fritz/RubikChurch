@@ -324,11 +324,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -398,6 +393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -1607,16 +1607,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
-        type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 443943427}
-    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
-        type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: waitDeath
-      objectReference: {fileID: 0}
     - target: {fileID: 5569357180586878718, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
         type: 3}
       propertyPath: notes.Array.size
@@ -1626,6 +1616,16 @@ PrefabInstance:
         type: 3}
       propertyPath: notes.Array.data[0]
       value: "\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 443943427}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: waitDeath
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87b73a14ddbbcf3479e12ee8d8005dbc, type: 3}
@@ -2936,11 +2936,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3010,6 +3005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.40000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -4656,11 +4656,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4730,6 +4725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.39999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -4842,11 +4842,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4916,6 +4911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.39999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}
@@ -5674,11 +5674,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubikCubeLight (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
-        type: 3}
-      propertyPath: generateCount
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8852212431723996687, guid: ec37e27eb98870340adaf0c373de2c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5748,6 +5743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.40000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882120140039371075, guid: ec37e27eb98870340adaf0c373de2c88,
+        type: 3}
+      propertyPath: generateCount
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec37e27eb98870340adaf0c373de2c88, type: 3}

@@ -16,6 +16,7 @@ namespace Scene9
         [SerializeField] private String goodEnding;
         [SerializeField] private List<String> BLGood;
         [SerializeField] private List<String> BLBad;
+        [SerializeField] private AudioClip endSound;
 
         private bool textShowed;
         
@@ -56,6 +57,7 @@ namespace Scene9
             {
                 case Save.End.BAD:
                     text.text = badEnding;
+                    Music.set(endSound);
                     break;
                 case Save.End.GOOD:
                     text.text = goodEnding;

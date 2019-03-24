@@ -283,6 +283,7 @@
             <e p="Managers" t="Include">
               <e p="GameManager.cs" t="Include" />
               <e p="Interface.cs" t="Include" />
+              <e p="Music.cs" t="Include" />
               <e p="NotesWindow.cs" t="Include" />
               <e p="Scenes.cs" t="Include" />
             </e>
@@ -359,6 +360,7 @@
             <e p="BorderCubeManager.cs" t="Include" />
             <e p="DeathCollider.cs" t="Include" />
             <e p="DeathEffect.cs" t="Include" />
+            <e p="JumpCube.cs" t="Include" />
             <e p="JumpCubeGenerator.cs" t="Include" />
             <e p="MegaCube.cs" t="Include" />
             <e p="SceneCur.cs" t="Include" />

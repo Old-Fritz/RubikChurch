@@ -16,9 +16,17 @@ namespace Scene0
         [SerializeField] private GameObject icons;
         [SerializeField] private String startBrowserText;
         [SerializeField] private SceneCur scene;
-    
+        
+        private AudioSource click;
+
+        void Start()
+        {
+            click = GetComponent<AudioSource>();
+        }
+        
         public void openBrowser()
         {
+            click.Play();
             if (!scene.cubeUp)
             {
                 Interface.main.showSubtitles(startBrowserText, 3);
@@ -31,18 +39,21 @@ namespace Scene0
 
         public void searchBack()
         {
+            click.Play();
             mainScreen.SetActive(true);
             browserSearch.SetActive(false);
         }
 
         public void doSearch()
         {
+            click.Play();
             browserSearch.SetActive(false);
             browserPage.SetActive(true);
         }
 
         public void closeBrowser()
         {
+            click.Play();
             mainScreen.SetActive(true);
             browserPage.SetActive(false);
         }
@@ -50,16 +61,19 @@ namespace Scene0
 
         public void openAlert()
         {
+            click.Play();
             blAlert.SetActive(true);
         }
 
         public void closeAlert()
         {
+            click.Play();
             blAlert.SetActive(false);
         }
 
         public void openBL()
         {
+            click.Play();
             mainScreen.SetActive(false);
             blAlert.SetActive(false);
             blGame.SetActive(true);
@@ -80,6 +94,7 @@ namespace Scene0
 
         public void closeBL()
         {
+            click.Play();
             mainScreen.SetActive(true);
             blGame.SetActive(false);
         
@@ -91,12 +106,14 @@ namespace Scene0
 
         public void makeChoise()
         {
+            click.Play();
             mainScreen.SetActive(true);
             blGame.SetActive(false);
         }
 
         public void clickIcon(int ind)
         {
+            click.Play();
             // change icon's color
             if (icons.transform.childCount > ind)
             {

@@ -7,6 +7,8 @@ namespace Scene3
 {
     public class SceneCur : MonoBehaviour
     {
+        [SerializeField] private AudioClip soundtrack;
+
         void Start()
         {
             // preload scene
@@ -14,7 +16,12 @@ namespace Scene3
             Scenes.unLoadScene(2);
             Scenes.loadScene(4);
         }
-        
+
+        private void OnEnable()
+        {
+            Music.set(soundtrack);
+        }
+
         public bool keyUp { get; set; }
         public bool drillUp { get; set; }
         public bool fuelUp { get; set; }

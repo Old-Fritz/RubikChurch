@@ -12,7 +12,7 @@ namespace Scene3
 
         private bool moving, opened;
         private Quaternion target;
-    
+            
         void Update()
         {
             if (moving)

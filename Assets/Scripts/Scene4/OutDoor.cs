@@ -11,7 +11,13 @@ namespace Scene4
         [SerializeField] private RubikCube cube;
 
         private bool moved;
+        private AudioSource source;
         
+        void Start()
+        {
+            source = GetComponent<AudioSource>();
+        }
+
         void Update()
         {
             if (!moved && cube.checkCorrect())
@@ -21,6 +27,7 @@ namespace Scene4
                 {
                     move.move();
                     moved = true;
+                    source.Play();
                 }
             }
         }

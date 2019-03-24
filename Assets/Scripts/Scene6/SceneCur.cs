@@ -5,6 +5,8 @@ namespace Scene6
 {
     public class SceneCur : MonoBehaviour
     {
+        [SerializeField] private AudioClip soundtrack;
+        
         void Start()
         {
             // unload and preload correct scenes
@@ -12,6 +14,11 @@ namespace Scene6
             Scenes.unLoadScene(5);
             Scenes.loadScene(7);
             Scenes.loadScene(8);
+        }
+        
+        private void OnEnable()
+        {
+            Music.set(soundtrack);
         }
     }
 }
