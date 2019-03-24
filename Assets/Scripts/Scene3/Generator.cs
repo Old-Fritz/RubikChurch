@@ -65,6 +65,7 @@ namespace Scene3
         {
             source.clip = generatorPlay;
             source.loop = true;
+            source.volume = 0.5f;
             source.Play();
             
             lights.SetActive(true);
