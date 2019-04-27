@@ -9,16 +9,17 @@ namespace Scene6
         [SerializeField] private RubikCube cube;
 
         private bool falled;
-    
-        void Start()
-        {
-            cube.animatedFix();
-        }
-
+        private bool startSolve = false;
+   
         void Update()
         {
+            if (!startSolve && cube.isCreated())
+            {
+                cube.animatedFix();
+                startSolve = true;
+            }
             // fall after correct
-            if (cube.checkCorrect())
+            if (startSolve && cube.checkCorrect())
             {
                 Rigidbody rigid = cube.gameObject.GetComponent<Rigidbody>();
                 if (rigid)

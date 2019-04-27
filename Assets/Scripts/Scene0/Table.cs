@@ -1,6 +1,7 @@
 ﻿using System;
 using Common.Managers;
 using Common.PlayerComps;
+using Common.Properties;
 using UnityEngine;
 
 namespace Scene0
@@ -20,9 +21,10 @@ namespace Scene0
                 Move playerMove = Player.main.GetComponent<Move>();
                 if (playerMove)
                     playerMove.moveAccepted = true;
-            
-                Scenes.goToScene(1);
 
+                Transitor transitor = GetComponent<Transitor>();
+                if(transitor)
+                    transitor.transite();
             }
         }
     }

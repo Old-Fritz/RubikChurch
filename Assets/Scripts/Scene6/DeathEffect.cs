@@ -30,6 +30,7 @@ namespace Scene6
             if (color.a >= 1 && !dead)
             {
                 dead = true;
+                deathColliders = 0;
                 afterDeath.Invoke();
             }
         }

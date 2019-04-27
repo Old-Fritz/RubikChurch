@@ -17,11 +17,13 @@ namespace Cube
         private bool isRotation;
         private List<GameObject> faceParts;
         private String genStr;
+        private bool created = false;
 
         void Start()
         {
             if(generateCount>0)
                 generate(generateCount);
+            created = true;
         }
     
         void Update()
@@ -306,6 +308,11 @@ namespace Cube
                 move(moveStr);
                 yield return new WaitForSeconds(90/animationSpeed);
             }
+        }
+
+        public bool isCreated()
+        {
+            return created;
         }
     }
 }

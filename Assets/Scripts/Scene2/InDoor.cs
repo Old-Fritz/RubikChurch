@@ -1,5 +1,6 @@
 ﻿using System;
 using Common.Managers;
+using Common.Properties;
 using UnityEngine;
 
 namespace Scene2
@@ -13,7 +14,9 @@ namespace Scene2
         {
             if (scene.keyUp)
             {
-                Scenes.goToScene(3);
+                Transitor transitor = GetComponent<Transitor>();
+                if(transitor)
+                    transitor.transite();
             }
             else
             {
