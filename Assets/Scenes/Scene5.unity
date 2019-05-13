@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
     m_AtlasSize: 1024
@@ -62,6 +62,7 @@ LightmapSettings:
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
@@ -76,10 +77,16 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVRFilteringMode: 1
+    m_PVREnvironmentMIS: 0
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -88,6 +95,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
+    m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -1607,15 +1615,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5569357180586878718, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
         type: 3}
-      propertyPath: notes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5569357180586878718, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
-        type: 3}
-      propertyPath: notes.Array.data[0]
-      value: "\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410"
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
         type: 3}
@@ -1627,6 +1630,41 @@ PrefabInstance:
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: waitDeath
       objectReference: {fileID: 0}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 473003989}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: onClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852040771380038197, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569357180586878718, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: notes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569357180586878718, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+        type: 3}
+      propertyPath: notes.Array.data[0]
+      value: "\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87b73a14ddbbcf3479e12ee8d8005dbc, type: 3}
 --- !u!4 &473003988 stripped
@@ -1635,6 +1673,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 473003987}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &473003989 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5569357180586878718, guid: 87b73a14ddbbcf3479e12ee8d8005dbc,
+    type: 3}
+  m_PrefabInstance: {fileID: 473003987}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96080bb73ef766744ad67618e296e2c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &576762852
 PrefabInstance:
   m_ObjectHideFlags: 0
