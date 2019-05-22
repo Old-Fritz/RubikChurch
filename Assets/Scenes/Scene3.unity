@@ -7961,7 +7961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e967e3159a5c143b603fc46ee3434a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  descriptionText: "\u041F\u0440\u043E\u0447\u043A\u0441\u0442\u044C \u0441\u0432\u044F\u0449\u0435\u043D\u043D\u0443\u044E
+  descriptionText: "\u041F\u0440\u043E\u0447\u0435\u0441\u0442\u044C \u0441\u0432\u044F\u0449\u0435\u043D\u043D\u0443\u044E
     \u043A\u043D\u0438\u0433\u0443"
   distance: 2
 --- !u!114 &477051508
@@ -27324,6 +27324,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652201985, guid: 839e766d0955e054cb4603f850e3ed40, type: 3}
+      propertyPath: showTime
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 839e766d0955e054cb4603f850e3ed40, type: 3}

@@ -2213,7 +2213,8 @@ MonoBehaviour:
   blAlert: {fileID: 235132052}
   blGame: {fileID: 11174681}
   icons: {fileID: 475696733}
-  startBrowserText: 
+  startBrowserText: "\u041C\u043D\u0435 \u043F\u043E\u043A\u0430 \u043D\u0435\u0447\u0435\u0433\u043E
+    \u0438\u0441\u043A\u0430\u0442\u044C..."
   scene: {fileID: 2126846391}
 --- !u!82 &689083292
 AudioSource:
@@ -2632,7 +2633,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "> \u0411\u0435\u0433\u0438\u0442\u0435!! \u0412\u0442\u043E\u0440\u043E\u0439
+  m_Text: "> \u0411\u0435\u0433\u0438\u0442\u0435!! \u041F\u0435\u0440\u0432\u044B\u0439
     \u043F\u043E\u0432\u043E\u0440\u043E\u0442 \u043D\u0430\u043B\u0435\u0432\u043E
     \u0441\u043F\u0430\u0441\u0435\u0442!!"
 --- !u!222 &805506324

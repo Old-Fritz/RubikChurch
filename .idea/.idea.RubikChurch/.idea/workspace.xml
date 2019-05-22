@@ -2,184 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffadde23-629e-4c15-85b3-99ed1af86347" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RubikChurch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/Doorframe.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/Doorframe.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_door_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_door_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doorframe.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doorframe.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doorframe_SmMetAO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doorframe_SmMetAO.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doorframe_basecolor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doorframe_basecolor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doorframe_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doorframe_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doors_01_SmMetAO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doors_01_SmMetAO.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doors_01_basecolor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doors_01_basecolor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doors_01_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/Materials/dfk_doors_01_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/dfk_door_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/dfk_door_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/dfk_doorframe.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Doors and Gates/dfk_doorframe.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials/dfk_wall_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials/dfk_wall_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials/dfk_wall_a_SmMetAO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials/dfk_wall_a_SmMetAO.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials/dfk_wall_a_basecolor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials/dfk_wall_a_basecolor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials/dfk_wall_a_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/Materials/dfk_wall_a_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/dfk_wall_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/dfk_wall_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/dfk_wall_1_door.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/dfk_wall_1_door.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/dfk_wall_window_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Walls/dfk_wall_window_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window_SmMetAO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window_SmMetAO.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window_basecolor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window_basecolor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Meshes/Windows/Materials/dfk_window_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Doors and Gates.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Doors and Gates/dfk_door_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Doors and Gates/dfk_door_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Walls.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Walls/dfk_wall_01a.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Walls/dfk_wall_01a.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Walls/dfk_wall_01a_door.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Walls/dfk_wall_01a_door.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Walls/dfk_wall_01a_window_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Prefabs/Walls/dfk_wall_01a_window_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Parts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Parts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Parts/Editor/ReadmeEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Parts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Parts/RMLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Parts/RMLogo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Parts/Readme.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Parts/Readme.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Readme.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/Readme.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/UserGuide [free].pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Readme/UserGuide [free].pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Scenes/DemoScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Scenes/DemoScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Scenes/Showcase.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Scenes/Showcase.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Scenes/Showcase.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Scenes/Showcase/showcasefloor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/DarkPack/DarkFantasyKit [Free]/Scenes/Showcase/showcasefloor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Scenes/SampleScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Scenes/SampleScene/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Scenes/SampleScene/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Scenes/SampleScene/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Lab/Scenes/SampleScene/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures/diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures/diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures/normal_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures/normal_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures/translucency_gloss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Tree_Textures/translucency_gloss.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Leafs19.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Leafs19.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Leafs19_N.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Leafs19_N.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Materials/leaf.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Materials/leaf.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures/diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures/diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures/normal_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures/normal_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures/translucency_gloss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_1_Textures/translucency_gloss.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures/diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures/diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures/normal_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures/normal_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures/translucency_gloss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_2_Textures/translucency_gloss.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_5.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_5.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_Leaf.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_Leaf.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_leafs.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/Tree9_leafs.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/bark14.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/bark14.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/bark14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/bark14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/bark14_N.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/bark14_N.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/tree9.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/Trees/tree9.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/UI/Slider.guiskin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/UI/Slider.guiskin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/UI/slider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/UI/slider.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/model/roc_diffus.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/model/roc_diffus.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/model/roc_mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/model/roc_mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/model/roc_normal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/model/roc_normal.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/sample01.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/sample01.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/sample02.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/sample02.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/script.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/script/TorchSlider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/script/TorchSlider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/script/Torchslider2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/script/Torchslider2.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/wallstone.3DS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/torch/scene/wallstone.3DS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,29 +13,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/GoldenCube.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <marker date="1556376153692" expanded="true" signature="136:2278" ph="{...}" />
-                <marker date="1556376153692" expanded="true" signature="182:2276" ph="{...}" />
-                <marker date="1556376153692" expanded="true" signature="387:525" ph="{...}" />
-                <marker date="1556376153692" expanded="true" signature="587:932" ph="{...}" />
-                <marker date="1556376153692" expanded="true" signature="989:1339" ph="{...}" />
-                <marker date="1556376153692" expanded="true" signature="1370:2060" ph="{...}" />
-                <marker date="1556376153692" expanded="true" signature="1406:2050" ph="{...}" />
-                <marker date="1556376153692" expanded="true" signature="1531:2036" ph="{...}" />
-                <marker date="1556376153692" expanded="true" signature="2109:2270" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
                 <marker date="1556376153692" expanded="true" signature="48:1317" ph="{...}" />
@@ -229,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Move.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
                 <marker date="1556376153693" expanded="true" signature="48:1793" ph="{...}" />
@@ -249,9 +52,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene5/SceneCur.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
+                <marker date="1556376153708" expanded="false" signature="6:41" ph="..." />
                 <marker date="1556376153708" expanded="true" signature="59:290" ph="{...}" />
                 <marker date="1556376153708" expanded="true" signature="103:288" ph="{...}" />
                 <marker date="1556376153708" expanded="true" signature="130:282" ph="{...}" />
@@ -263,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene5/Skeleton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
                 <marker date="1556376153708" expanded="true" signature="36:204" ph="{...}" />
@@ -277,9 +81,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/OutDoor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
+                <marker date="1556376153707" expanded="false" signature="6:115" ph="..." />
+                <marker date="1556376153707" expanded="true" signature="133:752" ph="{...}" />
                 <marker date="1556376153707" expanded="true" signature="176:750" ph="{...}" />
                 <marker date="1556376153707" expanded="true" signature="326:396" ph="{...}" />
                 <marker date="1556376153707" expanded="true" signature="419:744" ph="{...}" />
@@ -293,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/MovingCube.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
                 <marker date="1556376153706" expanded="true" signature="36:986" ph="{...}" />
@@ -312,6 +118,7 @@
             <state relative-caret-position="48">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
+                <marker date="1556376153712" expanded="false" signature="6:152" ph="..." />
                 <marker date="1556376153712" expanded="true" signature="170:2445" ph="{...}" />
                 <marker date="1556376153712" expanded="true" signature="214:2443" ph="{...}" />
                 <marker date="1556376153712" expanded="true" signature="549:662" ph="{...}" />
@@ -335,9 +142,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/LabirintTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
+                <marker date="1556376153706" expanded="false" signature="6:44" ph="..." />
                 <marker date="1556376153706" expanded="true" signature="62:367" ph="{...}" />
                 <marker date="1556376153706" expanded="true" signature="113:365" ph="{...}" />
                 <marker date="1556376153706" expanded="true" signature="149:359" ph="{...}" />
@@ -349,9 +157,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/SceneCur.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
+                <marker date="1556376153707" expanded="false" signature="6:41" ph="..." />
                 <marker date="1556376153707" expanded="true" signature="59:441" ph="{...}" />
                 <marker date="1556376153707" expanded="true" signature="103:439" ph="{...}" />
                 <marker date="1556376153707" expanded="true" signature="194:345" ph="{...}" />
@@ -518,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="975" />
@@ -532,6 +341,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -544,10 +357,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -628,11 +437,12 @@
       <workItem from="1556377021886" duration="5932000" />
       <workItem from="1557148711078" duration="1219000" />
       <workItem from="1557282481063" duration="4645000" />
+      <workItem from="1558543211939" duration="194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223890000" />
+    <option name="totallyTimeSpent" value="224084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,7 +456,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -756,20 +566,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene6/DeathCollider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1556376153710" expanded="false" signature="6:44" ph="..." />
-            <marker date="1556376153710" expanded="true" signature="62:550" ph="{...}" />
-            <marker date="1556376153710" expanded="true" signature="111:548" ph="{...}" />
-            <marker date="1556376153710" expanded="true" signature="173:336" ph="{...}" />
-            <marker date="1556376153710" expanded="true" signature="388:542" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene6/DeathEffect.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -1429,7 +1225,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/MouseRotation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="48">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding>
             <marker date="1556376153692" expanded="true" signature="48:1317" ph="{...}" />
@@ -1444,7 +1240,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common/PlayerComps/Move.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="48">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding>
             <marker date="1556376153693" expanded="true" signature="48:1793" ph="{...}" />
@@ -1462,7 +1258,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene5/SceneCur.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="48">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <marker date="1556376153708" expanded="false" signature="6:41" ph="..." />
@@ -1475,7 +1271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene5/Skeleton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="48">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding>
             <marker date="1556376153708" expanded="true" signature="36:204" ph="{...}" />
@@ -1487,10 +1283,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/OutDoor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="48">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <marker date="1556376153707" expanded="false" signature="6:115" ph="..." />
+            <marker date="1556376153707" expanded="true" signature="133:752" ph="{...}" />
             <marker date="1556376153707" expanded="true" signature="176:750" ph="{...}" />
             <marker date="1556376153707" expanded="true" signature="326:396" ph="{...}" />
             <marker date="1556376153707" expanded="true" signature="419:744" ph="{...}" />
@@ -1500,9 +1297,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/MovingCube.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1556376153706" expanded="true" signature="36:986" ph="{...}" />
+            <marker date="1556376153706" expanded="true" signature="82:984" ph="{...}" />
+            <marker date="1556376153706" expanded="true" signature="300:352" ph="{...}" />
+            <marker date="1556376153706" expanded="true" signature="375:602" ph="{...}" />
+            <marker date="1556376153706" expanded="true" signature="647:978" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/LabirintTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="48">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <marker date="1556376153706" expanded="false" signature="6:44" ph="..." />
@@ -1515,7 +1326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/SceneCur.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="48">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <marker date="1556376153707" expanded="false" signature="6:41" ph="..." />
@@ -1527,17 +1338,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene4/MovingCube.cs">
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.multiplayer-hlapi@1.0.2/Runtime/NetworkDiscovery.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1556376153706" expanded="true" signature="36:986" ph="{...}" />
-            <marker date="1556376153706" expanded="true" signature="82:984" ph="{...}" />
-            <marker date="1556376153706" expanded="true" signature="300:352" ph="{...}" />
-            <marker date="1556376153706" expanded="true" signature="375:602" ph="{...}" />
-            <marker date="1556376153706" expanded="true" signature="647:978" ph="{...}" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="448" selection-start-line="448" selection-end-line="448" />
         </state>
       </provider>
     </entry>
@@ -1546,6 +1350,7 @@
         <state relative-caret-position="48">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
+            <marker date="1556376153712" expanded="false" signature="6:152" ph="..." />
             <marker date="1556376153712" expanded="true" signature="170:2445" ph="{...}" />
             <marker date="1556376153712" expanded="true" signature="214:2443" ph="{...}" />
             <marker date="1556376153712" expanded="true" signature="549:662" ph="{...}" />

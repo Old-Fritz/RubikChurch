@@ -115,7 +115,7 @@ namespace Scene0
         {
             click.Play();
             // change icon's color
-            if (icons.transform.childCount > ind)
+            if (icons.transform.childCount > ind-1)
             {
                 Image icon = icons.transform.GetChild(ind - 1).gameObject.GetComponent<Image>();
                 if (icon)
